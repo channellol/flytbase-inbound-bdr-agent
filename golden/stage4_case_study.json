@@ -1,0 +1,205 @@
+{
+  "discovered_count": 24,
+  "fetched_count": 24,
+  "weights": {
+    "industry_match": 0.3,
+    "use_case_match": 0.25,
+    "operating_context_match": 0.2,
+    "named_org_match": 0.15,
+    "region_match": 0.1
+  },
+  "email_orgs": [
+    {
+      "name": "Sociedad Quimica y Minera de Chile (SQM)",
+      "role": "sender's company",
+      "variants": [
+        "SQM"
+      ]
+    },
+    {
+      "name": "Anglo American",
+      "role": "referrer",
+      "variants": [
+        "Anglo American"
+      ]
+    }
+  ],
+  "org_mentions_on_site": [
+    {
+      "org": "Sociedad Quimica y Minera de Chile (SQM)",
+      "role": "sender's company",
+      "url": "https://flytbase.com/case-studies/sqm-678-km2-mine-autonomous-inspection-adentu-and-flytbase",
+      "title": "How SQM Turned a 678 km² Mine into an Autonomous Inspection Zone | FlytBase | FlytBase",
+      "matched_on": [
+        "SQM"
+      ]
+    },
+    {
+      "org": "Anglo American",
+      "role": "referrer",
+      "url": "https://flytbase.com/case-studies/anglo-american-autonomous-mining-drones-peru-case-study",
+      "title": "How Anglo American Uses Autonomous Drones to Transform Mining Safety in Peru | FlytBase Case Study | FlytBase",
+      "matched_on": [
+        "Anglo American"
+      ]
+    }
+  ],
+  "ranking": [
+    {
+      "id": 20,
+      "customer": "SQM",
+      "industry": "Mining",
+      "location": "Atacama Desert, northern Chile",
+      "results": [
+        "cut inspection time from days to hours",
+        "achieved more than 95 percent mission reliability",
+        "improved iodine extraction yield by two percent"
+      ],
+      "industry_match": 10,
+      "use_case_match": 10,
+      "operating_context_match": 10,
+      "named_org_match": 10,
+      "region_match": 10,
+      "reason": "Direct match for SQM in the Atacama Desert with mining, autonomous inspection, and exact named organization.",
+      "url": "https://flytbase.com/case-studies/sqm-678-km2-mine-autonomous-inspection-adentu-and-flytbase",
+      "title": "How SQM Turned a 678 km² Mine into an Autonomous Inspection Zone | FlytBase | FlytBase",
+      "weighted_score": 10.0
+    },
+    {
+      "id": 5,
+      "customer": "Anglo American",
+      "industry": "Mining",
+      "location": "Quellaveco copper mine in Peru",
+      "results": [
+        "not stated",
+        "not stated",
+        "not stated"
+      ],
+      "industry_match": 10,
+      "use_case_match": 10,
+      "operating_context_match": 8,
+      "named_org_match": 10,
+      "region_match": 10,
+      "reason": "Mining industry, autonomous drone-in-a-box deployment in South America (Peru) by Anglo American (referred lead source).",
+      "url": "https://flytbase.com/case-studies/anglo-american-autonomous-mining-drones-peru-case-study",
+      "title": "How Anglo American Uses Autonomous Drones to Transform Mining Safety in Peru | FlytBase Case Study | FlytBase",
+      "weighted_score": 9.6
+    },
+    {
+      "id": 6,
+      "customer": "Shell Petroleum",
+      "industry": "Oil & Gas",
+      "location": "Rotterdam, Netherlands",
+      "results": [
+        "not stated",
+        "not stated",
+        "not stated"
+      ],
+      "industry_match": 2,
+      "use_case_match": 10,
+      "operating_context_match": 8,
+      "named_org_match": 0,
+      "region_match": 0,
+      "reason": "Autonomous dock inspections in industrial environments, but wrong industry and region.",
+      "url": "https://flytbase.com/case-studies/autonomous-drone-inspections-oil-and-gas",
+      "title": "Autonomous Drone Inspections Boost Oil & Gas Efficiency  | FlytBase",
+      "weighted_score": 4.7
+    },
+    {
+      "id": 18,
+      "customer": "Sensorem",
+      "industry": "Agriculture",
+      "location": "Western Australia",
+      "results": [
+        "completed over 11,000 BVLOS missions",
+        "not stated",
+        "not stated"
+      ],
+      "industry_match": 2,
+      "use_case_match": 9,
+      "operating_context_match": 9,
+      "named_org_match": 0,
+      "region_match": 0,
+      "reason": "Remote industrial sites with autonomous drone docks, though different industry and region.",
+      "url": "https://flytbase.com/case-studies/sensorem-autonomous-docked-drones-deployment-australia",
+      "title": "How Sensorem Deployed 20+ Autonomous Drones Across Remote Australian Industrial Sites | FlytBase",
+      "weighted_score": 4.65
+    },
+    {
+      "id": 0,
+      "customer": "24-7 Drone Force",
+      "industry": "Site Security",
+      "location": "South Africa",
+      "results": [
+        "not stated",
+        "not stated",
+        "not stated"
+      ],
+      "industry_match": 0,
+      "use_case_match": 8,
+      "operating_context_match": 6,
+      "named_org_match": 0,
+      "region_match": 0,
+      "reason": "Perimeter security using docks, but residential security industry and different region.",
+      "url": "https://flytbase.com/case-studies/24-7-drone-force-residential-estate-security-docks-south-africa",
+      "title": "24-7 Drone Force Secures Residential Estates using Autonomous Drones in South Africa | FlytBase",
+      "weighted_score": 3.2
+    }
+  ],
+  "best": {
+    "id": 20,
+    "customer": "SQM",
+    "industry": "Mining",
+    "location": "Atacama Desert, northern Chile",
+    "results": [
+      "cut inspection time from days to hours",
+      "achieved more than 95 percent mission reliability",
+      "improved iodine extraction yield by two percent"
+    ],
+    "industry_match": 10,
+    "use_case_match": 10,
+    "operating_context_match": 10,
+    "named_org_match": 10,
+    "region_match": 10,
+    "reason": "Direct match for SQM in the Atacama Desert with mining, autonomous inspection, and exact named organization.",
+    "url": "https://flytbase.com/case-studies/sqm-678-km2-mine-autonomous-inspection-adentu-and-flytbase",
+    "title": "How SQM Turned a 678 km² Mine into an Autonomous Inspection Zone | FlytBase | FlytBase",
+    "weighted_score": 10.0
+  },
+  "runner_up": {
+    "id": 5,
+    "customer": "Anglo American",
+    "industry": "Mining",
+    "location": "Quellaveco copper mine in Peru",
+    "results": [
+      "not stated",
+      "not stated",
+      "not stated"
+    ],
+    "industry_match": 10,
+    "use_case_match": 10,
+    "operating_context_match": 8,
+    "named_org_match": 10,
+    "region_match": 10,
+    "reason": "Mining industry, autonomous drone-in-a-box deployment in South America (Peru) by Anglo American (referred lead source).",
+    "url": "https://flytbase.com/case-studies/anglo-american-autonomous-mining-drones-peru-case-study",
+    "title": "How Anglo American Uses Autonomous Drones to Transform Mining Safety in Peru | FlytBase Case Study | FlytBase",
+    "weighted_score": 9.6
+  },
+  "rationale": {
+    "why_best": [
+      "It directly features SQM, the exact company and lead context of the prospect.",
+      "It focuses on the Atacama Desert, matching the lead's specific region and site description.",
+      "It addresses relevant use cases like drone-based irrigation and leaching inspections at scale.",
+      "It highlights tangible operational results achieved within the same mining context."
+    ],
+    "how_to_use_in_outreach": "Share the SQM case study as direct proof of what is possible at their specific Atacama lithium sites, highlighting the transition from manual checks to automated daily workflows.",
+    "use_of_runner_up": "Use the Anglo American case study as a referral proof point, leveraging the connection to the lead's referral source to demonstrate broader mining safety and autonomy success in South America.",
+    "proof_points": [
+      "SQM achieved more than 95 percent mission reliability.",
+      "Cut inspection time from days to hours.",
+      "Improved iodine extraction yield by two percent.",
+      "Automated daily missions using DJI Dock-based drones and FlytBase."
+    ]
+  }
+}

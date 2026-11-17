@@ -1,0 +1,135 @@
+{
+  "framework": "MEDDPICC",
+  "framework_reasoning": "MEDDPICC was chosen over BANT because this is an enterprise, multi-site mining deal: a Head of Operations is rarely the economic buyer, procurement and safety approval (Paper Process) at a listed miner is long, and the email already hints at a champion and a budget event (Q3). MEDDPICC separates those threads; BANT would collapse them into 'budget yes/no' and hide what the AE still has to discover.",
+  "lead": {
+    "name": "Rodrigo Castillo",
+    "email": "r.castillo@sqm.cl",
+    "title": "Head of Operations, Northern Operations Division",
+    "company": "Sociedad Quimica y Minera de Chile (SQM)",
+    "company_short": "SQM",
+    "country": "Chile",
+    "email_domain": "sqm.cl",
+    "subject": "Autonomous inspection for our Atacama lithium sites",
+    "sites_count": 3,
+    "site_description": "large-scale, 24/7 lithium extraction sites in the Atacama Desert",
+    "operating_hours": "24/7",
+    "use_case": "drone-based inspection",
+    "stated_pain": [
+      "Contracted crews are expensive",
+      "Contracted crews are hazardous"
+    ],
+    "referral_source": "Anglo American",
+    "budget_timing": "Q3",
+    "industry": "mining",
+    "commodity": "lithium",
+    "region": "Atacama Desert"
+  },
+  "meddpicc": [
+    {
+      "element": "Metrics",
+      "status": "partial",
+      "evidence": "Contracted crews are expensive and hazardous",
+      "missing": "Specific quantitative metrics or cost reduction targets",
+      "discovery_question": "What is the current annual spend on contracted crews, and what specific cost reduction or safety targets are you aiming to achieve with autonomous drones?"
+    },
+    {
+      "element": "Economic Buyer",
+      "status": "partial",
+      "evidence": "Internal budget conversation scheduled for Q3",
+      "missing": "Confirmation of whether the Head of Operations has final sign-off authority or if another executive holds the budget",
+      "discovery_question": "Will you be the final decision-maker for the Q3 budget allocation, or will this require approval from the CFO or another executive?"
+    },
+    {
+      "element": "Decision Criteria",
+      "status": "unknown",
+      "evidence": "",
+      "missing": "The technical, financial, and operational criteria used to evaluate solutions",
+      "discovery_question": "What are the primary technical and operational criteria your team will use to evaluate autonomous drone software solutions?"
+    },
+    {
+      "element": "Decision Process",
+      "status": "unknown",
+      "evidence": "",
+      "missing": "Steps, stakeholders, and timeline for the evaluation and purchase process beyond Q3 budget talks",
+      "discovery_question": "Could you walk me through the steps and key stakeholders involved in your evaluation and purchasing process leading up to Q3?"
+    },
+    {
+      "element": "Paper Process",
+      "status": "unknown",
+      "evidence": "",
+      "missing": "Procurement, legal, and security review steps",
+      "discovery_question": "What does your legal, procurement, and security review process look like once a vendor is selected?"
+    },
+    {
+      "element": "Identify Pain",
+      "status": "known",
+      "evidence": "Contracted crews are expensive and hazardous",
+      "missing": "None",
+      "discovery_question": "How frequently do safety incidents occur with the contracted crews, and which specific inspection tasks pose the highest risk?"
+    },
+    {
+      "element": "Champion",
+      "status": "partial",
+      "evidence": "Head of Operations, Northern Operations Division",
+      "missing": "Confirmation that Rodrigo is willing to advocate internally for FlytBase and guide the sales process",
+      "discovery_question": "As Head of Operations, would you be leading this initiative internally, and how can we best support you in presenting this to other stakeholders?"
+    },
+    {
+      "element": "Competition",
+      "status": "unknown",
+      "evidence": "",
+      "missing": "Names of competing software providers or internal alternatives being considered",
+      "discovery_question": "Are you currently evaluating any other drone autonomy platforms or considering building an internal solution?"
+    }
+  ],
+  "known": [
+    "Identify Pain: Contracted crews are expensive and hazardous"
+  ],
+  "partial": [
+    "Metrics: Contracted crews are expensive and hazardous (missing: Specific quantitative metrics or cost reduction targets)",
+    "Economic Buyer: Internal budget conversation scheduled for Q3 (missing: Confirmation of whether the Head of Operations has final sign-off authority or if another executive holds the budget)",
+    "Champion: Head of Operations, Northern Operations Division (missing: Confirmation that Rodrigo is willing to advocate internally for FlytBase and guide the sales process)"
+  ],
+  "unknown": [
+    "Decision Criteria: The technical, financial, and operational criteria used to evaluate solutions",
+    "Decision Process: Steps, stakeholders, and timeline for the evaluation and purchase process beyond Q3 budget talks",
+    "Paper Process: Procurement, legal, and security review steps",
+    "Competition: Names of competing software providers or internal alternatives being considered"
+  ],
+  "fit_signals": [
+    {
+      "signal": "large industrial sites",
+      "evidence": "3 large-scale, 24/7 lithium extraction sites in the Atacama Desert"
+    },
+    {
+      "signal": "24/7 operations",
+      "evidence": "24/7 lithium extraction sites"
+    },
+    {
+      "signal": "autonomous dock-based drones",
+      "evidence": "Autonomous inspection for our Atacama lithium sites"
+    },
+    {
+      "signal": "hazardous manual inspection",
+      "evidence": "Contracted crews are hazardous"
+    },
+    {
+      "signal": "enterprise budget",
+      "evidence": "Internal budget conversation scheduled for Q3"
+    }
+  ],
+  "risk_signals": [
+    {
+      "signal": "Budget timing is deferred",
+      "why": "Budget conversation is not scheduled until Q3, which may delay active evaluation and closing."
+    }
+  ],
+  "scores": {
+    "meddpicc_completeness_0_10": 3.1,
+    "fit_score_0_10": 8.5,
+    "priority_score_0_10": 8.9,
+    "priority_tier": "P1 (respond same day)",
+    "scoring_rule": "completeness = known 1 / partial 0.5 / unknown 0 averaged over 8 elements x10; fit = 4 + fit signals - 0.5 x risk signals (0-10); priority = 0.5 fit + 0.2 completeness + 2 if a budget date is named + 2 if referred by a known account"
+  },
+  "summary": "Rodrigo Castillo, Head of Operations at SQM, reached out regarding autonomous drone inspections for three large-scale 24/7 lithium extraction sites in the Atacama Desert, driven by high costs and safety hazards of contracted crews. The lead shows strong ICP fit with defined pain points and a Q3 budget timeline, though details on decision criteria, process, and economic buyer authority remain unknown."
+}

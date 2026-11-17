@@ -1,0 +1,202 @@
+[2026-11-17 23:53:44] INFO  Run started. Model: gemini-3.5-flash-lite. Input: inbound email (454 chars)
+[2026-11-17 23:53:44] INFO  === Stage 1: Qualification (MEDDPICC) ===
+[2026-11-17 23:53:44] INFO  [1-qualification] Parsing inbound email into structured fields
+[2026-11-17 23:53:46] WARN  [1-qualification] LLM error on parse email (ServerError, gemini-3.5-flash-lite): 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand 
+[2026-11-17 23:53:46] WARN  [1-qualification] switching parse email to gemini-3.1-flash-lite
+[2026-11-17 23:53:49] INFO  [1-qualification] LLM ok: parse email (2.3s, gemini-3.1-flash-lite)
+[2026-11-17 23:53:49] INFO  [1-qualification] Assessing MEDDPICC elements against email evidence
+[2026-11-17 23:53:53] INFO  [1-qualification] LLM ok: MEDDPICC assessment (3.3s, gemini-3.5-flash-lite)
+[2026-11-17 23:53:53] INFO  [1-qualification] Fit 8.5/10, priority 8.9/10, 4 unknown elements
+[2026-11-17 23:53:53] INFO  Stage 1: Qualification (MEDDPICC) done in 8.3s -> output/stage1_qualification.json
+[2026-11-17 23:53:53] INFO  === Stage 2: Deep account research ===
+[2026-11-17 23:53:53] INFO  [2-research] Planning research queries for Sociedad Quimica y Minera de Chile (SQM)
+[2026-11-17 23:53:54] INFO  [2-research] LLM ok: plan search queries (1.5s, gemini-3.5-flash-lite)
+[2026-11-17 23:53:54] INFO  [2-research] Running 20 searches in parallel
+[2026-11-17 23:55:16] INFO  [2-research] search [org_structure] 'SQM executive team vice president operations' -> 8 results
+[2026-11-17 23:55:16] INFO  [2-research] search [org_structure] 'SQM board of directors CEO management' -> 8 results
+[2026-11-17 23:55:16] INFO  [2-research] search [org_structure] 'SQM Northern Operations Division executive structure report' -> 8 results
+[2026-11-17 23:55:16] INFO  [2-research] search [org_structure] 'Sociedad Quimica y Minera de Chile Head of Operations leadership' -> 8 results
+[2026-11-17 23:55:16] INFO  [2-research] search [budget_signals] 'SQM 20-F 2025 capital expenditures' -> 8 results
+[2026-11-17 23:55:16] INFO  [2-research] search [budget_signals] 'SQM capex guidance 2026' -> 8 results
+[2026-11-17 23:55:16] INFO  [2-research] search [budget_signals] 'SQM Form 20-F capex technology automation investment Chile' -> 8 results
+[2026-11-17 23:55:16] INFO  [2-research] search [budget_signals] 'Sociedad Quimica y Minera de Chile annual report operational expenditure expansion spend' -> 8 results
+[2026-11-17 23:55:16] INFO  [2-research] search [news] 'SQM news 2026' -> 8 results
+[2026-11-17 23:55:16] INFO  [2-research] search [news] 'SQM press release 2026' -> 8 results
+[2026-11-17 23:55:16] INFO  [2-research] search [news] 'SQM 6-K earnings release 2026' -> 8 results
+[2026-11-17 23:55:16] INFO  [2-research] search [news] 'SQM press release operational expansion joint venture 2025 2026' -> 8 results
+[2026-11-17 23:55:16] INFO  [2-research] search [news] 'Sociedad Quimica y Minera de Chile drone inspection technology news' -> 8 results
+[2026-11-17 23:55:16] INFO  [2-research] search [investor_letters] 'SQM annual report 2025 letter from the chairman' -> 8 results
+[2026-11-17 23:55:16] INFO  [2-research] search [investor_letters] 'SQM earnings call transcript 2026' -> 8 results
+[2026-11-17 23:55:16] INFO  [2-research] search [investor_letters] 'SQM investor presentation 2026' -> 8 results
+[2026-11-17 23:55:16] INFO  [2-research] search [investor_letters] 'SQM annual report 2025 pdf' -> 8 results
+[2026-11-17 23:55:16] INFO  [2-research] search [investor_letters] 'SQM CEO earnings call remarks 2026' -> 8 results
+[2026-11-17 23:55:16] INFO  [2-research] search [investor_letters] 'SQM CEO letter earnings call transcript automation productivity safety' -> 8 results
+[2026-11-17 23:55:16] INFO  [2-research] search [investor_letters] 'Sociedad Quimica y Minera de Chile investor presentation operational priorities' -> 8 results
+[2026-11-17 23:55:16] INFO  [2-research] 73 unique results, fetching top 36 in parallel
+[2026-11-17 23:55:41] WARN  fetch https://ir.sqm.com/financials/annual-reports/ failed (ReadTimeout: HTTPSConnectionPool(host='ir.sqm.com', port=443): Read timed out. (), attempt 1
+[2026-11-17 23:55:42] WARN  fetch https://ir.sqm.com/system/files-encrypted/nasdaq_kms/news/2024/12/01/22-28-38/0801e918-66f1-4698-a49b-75693ae33427.pdf failed (ReadTimeout: HTTPSConnectionPool(host='ir.sqm.com', port=443): Read timed out. (), attempt 1
+[2026-11-17 23:55:42] WARN  fetch https://ir.sqm.com/system/files-encrypted/nasdaq_kms/assets/2025/06/12/2-37-42/MEMORIA%20SQM%202024_eng.pdf failed (ReadTimeout: HTTPSConnectionPool(host='ir.sqm.com', port=443): Read timed out. (), attempt 1
+[2026-11-17 23:55:42] WARN  fetch https://ir.sqm.com/investor-relations/ failed (ReadTimeout: HTTPSConnectionPool(host='ir.sqm.com', port=443): Read timed out. (), attempt 1
+[2026-11-17 23:55:42] WARN  [2-research] skip https://ir.sqm.com/investor-relations/ (ReadTimeout: HTTPSConnectionPool(host='ir.sqm.com', port=443): Read timed out. (read timeout=25))
+[2026-11-17 23:55:42] WARN  [2-research] skip https://ir.sqm.com/system/files-encrypted/nasdaq_kms/assets/2025/06/12/2-37-42/MEMORIA%20SQM%202024_eng.pdf (ReadTimeout: HTTPSConnectionPool(host='ir.sqm.com', port=443): Read timed out. (read timeout=25))
+[2026-11-17 23:55:42] WARN  [2-research] skip https://sqm.com/en/about-sqm/board-and-management/ (HTTP 403)
+[2026-11-17 23:55:42] WARN  [2-research] skip https://ir.sqm.com/system/files-encrypted/nasdaq_kms/news/2024/12/01/22-28-38/0801e918-66f1-4698-a49b-75693ae33427.pdf (ReadTimeout: HTTPSConnectionPool(host='ir.sqm.com', port=443): Read timed out. (read timeout=25))
+[2026-11-17 23:55:42] WARN  [2-research] skip https://ir.sqm.com/financials/annual-reports/ (ReadTimeout: HTTPSConnectionPool(host='ir.sqm.com', port=443): Read timed out. (read timeout=25))
+[2026-11-17 23:55:42] WARN  [2-research] skip https://www.sqm.com/en/about-sqm/corporate-information/ (HTTP 403)
+[2026-11-17 23:55:42] WARN  [2-research] skip https://sqm.com/wp-content/uploads/2018/04/SQM-CorpPres_BAML.pdf (HTTP 403)
+[2026-11-17 23:55:42] WARN  [2-research] skip https://finance.yahoo.com/quote/SQM/earnings/SQM-Q2-2026-earnings_call-563665.html (HTTP 404)
+[2026-11-17 23:55:42] WARN  [2-research] skip https://www.marketbeat.com/stocks/NYSE/SQM/earnings/ (HTTP 403)
+[2026-11-17 23:55:42] WARN  [2-research] skip https://ca.finance.yahoo.com/sec-filing/SQM/0000909037-25-000042_909037 (HTTP 404)
+[2026-11-17 23:55:42] WARN  [2-research] skip https://www.investing.com/news/company-news/sqm-q2-2026-slides-lithium-sales-surge-drives-record-results-93CH-4867962 (HTTP 403)
+[2026-11-17 23:55:42] WARN  [2-research] skip https://finance.yahoo.com/quote/SQM/financials/ (HTTP 404)
+[2026-11-17 23:55:42] WARN  [2-research] skip https://www.marketbeat.com/instant-alerts/price-sociedad-quimica-y-minera-nyse-sqm-hits-new-12-month-low-should-you-sell-2026-11-16/ (does not name SQM / Chile)
+[2026-11-17 23:55:42] WARN  [2-research] skip https://seekingalpha.com/symbol/SQM (HTTP 403)
+[2026-11-17 23:55:42] WARN  [2-research] skip https://www.marketbeat.com/stocks/NYSE/SQM/news/ (HTTP 403)
+[2026-11-17 23:55:42] WARN  [2-research] skip https://ng.investing.com/news/company-news/sqm-q2-2026-slides-lithium-rebound-drives-record-quarter-93CH-2667263 (HTTP 403)
+[2026-11-17 23:55:42] WARN  [2-research] skip https://seekingalpha.com/news/4597703-sqm-targets-15-percent-2026-lithium-sales-growth-as-salar-futuro-is-sized-at-3b (HTTP 403)
+[2026-11-17 23:55:42] WARN  [2-research] skip https://www.mining.com/autonomous-drones-to-lead-the-way-in-mining-surveillance-technology-report/ (does not name SQM / Chile)
+[2026-11-17 23:55:42] WARN  [2-research] skip https://www.investing.com/news/transcripts/earnings-call-transcript-sqm-q1-2026-beats-revenue-expectations-stock-rises-93CH-4712829 (HTTP 403)
+[2026-11-17 23:55:42] WARN  [2-research] skip https://seekingalpha.com/symbol/SQM/earnings/transcripts (HTTP 403)
+[2026-11-17 23:55:42] WARN  [2-research] skip https://www.marketbeat.com/earnings/reports/2026-5-26-sociedad-qumica-y-minera-de-chile-sa-stock/ (host skipped: timed out or blocked earlier in this run)
+[2026-11-17 23:55:42] WARN  [2-research] skip https://au.investing.com/news/stock-market-news/earnings-call-transcript-sqm-q1-2026-beats-revenue-expectations-stock-rises-93CH-4458525 (HTTP 403)
+[2026-11-17 23:55:42] WARN  [2-research] skip https://seekingalpha.com/article/4815441-sociedad-quimica-y-minera-de-chile-s-a-sqm-q2-2025-earnings-call-transcript (host skipped: timed out or blocked earlier in this run)
+[2026-11-17 23:55:42] WARN  [2-research] skip https://www.investing.com/news/stock-market-news/earnings-call-sqm-sees-strong-q1-growth-plans-capacity-expansion-93CH-3455092 (host skipped: timed out or blocked earlier in this run)
+[2026-11-17 23:55:42] INFO  [2-research] Extracting facts from 12 pages in parallel
+[2026-11-17 23:55:45] WARN  [2-research] LLM error on extract facts from sec.gov (ServerError, gemini-3.5-flash-lite): 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand 
+[2026-11-17 23:55:45] WARN  [2-research] switching extract facts from sec.gov to gemini-3.1-flash-lite
+[2026-11-17 23:55:45] INFO  [2-research] LLM ok: extract facts from sec.gov (3.3s, gemini-3.5-flash-lite)
+[2026-11-17 23:55:45] INFO  [2-research] LLM ok: extract org_structure from sec.gov (1.7s, gemini-3.5-flash-lite)
+[2026-11-17 23:55:47] INFO  [2-research] LLM ok: extract org_structure from sec.gov (2.1s, gemini-3.5-flash-lite)
+[2026-11-17 23:55:48] INFO  [2-research] LLM ok: extract org_structure from minedocs.com (2.4s, gemini-3.5-flash-lite)
+[2026-11-17 23:55:48] INFO  [2-research] LLM ok: extract budget_signals from sec.gov (1.6s, gemini-3.5-flash-lite)
+[2026-11-17 23:55:51] INFO  [2-research] LLM ok: extract facts from sec.gov (3.2s, gemini-3.1-flash-lite)
+[2026-11-17 23:55:51] INFO  [2-research] LLM ok: extract budget_signals from sec.gov (2.2s, gemini-3.5-flash-lite)
+[2026-11-17 23:55:52] INFO  [2-research] LLM ok: extract budget_signals from minedocs.com (2.3s, gemini-3.5-flash-lite)
+[2026-11-17 23:55:53] INFO  [2-research] LLM ok: extract news from sec.gov (2.2s, gemini-3.5-flash-lite)
+[2026-11-17 23:55:54] WARN  [2-research] LLM error on extract facts from prnewswire.com (ServerError, gemini-3.5-flash-lite): 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand 
+[2026-11-17 23:55:54] WARN  [2-research] switching extract facts from prnewswire.com to gemini-3.1-flash-lite
+[2026-11-17 23:55:55] INFO  [2-research] LLM ok: extract news from sec.gov (2.2s, gemini-3.5-flash-lite)
+[2026-11-17 23:55:56] INFO  [2-research] LLM ok: extract investor_letters from sec.gov (1.3s, gemini-3.5-flash-lite)
+[2026-11-17 23:55:56] INFO  [2-research] LLM ok: extract news from minedocs.com (2.6s, gemini-3.5-flash-lite)
+[2026-11-17 23:55:58] INFO  [2-research] LLM ok: extract investor_letters from sec.gov (1.2s, gemini-3.5-flash-lite)
+[2026-11-17 23:56:00] INFO  [2-research] LLM ok: extract facts from prnewswire.com (3.9s, gemini-3.1-flash-lite)
+[2026-11-17 23:56:01] INFO  [2-research] LLM ok: extract facts from finance.yahoo.com (2.9s, gemini-3.5-flash-lite)
+[2026-11-17 23:56:01] INFO  [2-research] LLM ok: extract investor_letters from minedocs.com (2.0s, gemini-3.5-flash-lite)
+[2026-11-17 23:56:02] INFO  [2-research] LLM ok: extract facts from finance.yahoo.com (2.7s, gemini-3.5-flash-lite)
+[2026-11-17 23:56:03] INFO  [2-research] LLM ok: extract facts from earningscall.biz (2.1s, gemini-3.5-flash-lite)
+[2026-11-17 23:56:04] INFO  [2-research] LLM ok: extract facts from earningscall.biz (2.4s, gemini-3.5-flash-lite)
+[2026-11-17 23:56:04] INFO  [2-research] LLM ok: extract org_structure from fool.com (1.7s, gemini-3.5-flash-lite)
+[2026-11-17 23:56:05] WARN  [2-research] LLM error on extract budget_signals from fool.com (429, gemini-3.5-flash-lite): 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and 
+[2026-11-17 23:56:05] WARN  [2-research] switching extract budget_signals from fool.com to gemini-3.1-flash-lite
+[2026-11-17 23:56:06] INFO  [2-research] LLM ok: extract org_structure from fool.com (2.7s, gemini-3.5-flash-lite)
+[2026-11-17 23:56:07] WARN  [2-research] LLM error on extract budget_signals from fool.com (429, gemini-3.5-flash-lite): 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and 
+[2026-11-17 23:56:07] WARN  [2-research] switching extract budget_signals from fool.com to gemini-3.1-flash-lite
+[2026-11-17 23:56:11] INFO  [2-research] LLM ok: extract budget_signals from fool.com (5.0s, gemini-3.1-flash-lite)
+[2026-11-17 23:56:13] INFO  [2-research] LLM ok: extract budget_signals from fool.com (4.5s, gemini-3.1-flash-lite)
+[2026-11-17 23:56:13] WARN  [2-research] LLM error on extract news from fool.com (429, gemini-3.5-flash-lite): 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and 
+[2026-11-17 23:56:13] WARN  [2-research] switching extract news from fool.com to gemini-3.1-flash-lite
+[2026-11-17 23:56:14] INFO  [2-research] LLM ok: extract news from fool.com (2.8s, gemini-3.5-flash-lite)
+[2026-11-17 23:56:14] WARN  [2-research] LLM error on extract investor_letters from fool.com (429, gemini-3.5-flash-lite): 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and 
+[2026-11-17 23:56:14] WARN  [2-research] switching extract investor_letters from fool.com to gemini-3.1-flash-lite
+[2026-11-17 23:56:18] INFO  [2-research] LLM ok: extract news from fool.com (2.6s, gemini-3.1-flash-lite)
+[2026-11-17 23:56:18] WARN  [2-research] LLM error on extract investor_letters from fool.com (429, gemini-3.5-flash-lite): 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and 
+[2026-11-17 23:56:18] WARN  [2-research] switching extract investor_letters from fool.com to gemini-3.1-flash-lite
+[2026-11-17 23:56:23] INFO  [2-research] LLM ok: extract investor_letters from fool.com (3.7s, gemini-3.1-flash-lite)
+[2026-11-17 23:56:42] INFO  [2-research] LLM ok: extract investor_letters from fool.com (25.7s, gemini-3.1-flash-lite)
+[2026-11-17 23:56:42] INFO  [2-research] sec.gov: kept 8 verified facts
+[2026-11-17 23:56:42] INFO  [2-research] sec.gov: kept 0 verified facts
+[2026-11-17 23:56:42] INFO  [2-research] sec.gov: kept 5 verified facts
+[2026-11-17 23:56:42] INFO  [2-research] sec.gov: kept 1 verified facts
+[2026-11-17 23:56:42] INFO  [2-research] minedocs.com: kept 7 verified facts
+[2026-11-17 23:56:42] INFO  [2-research] prnewswire.com: kept 7 verified facts
+[2026-11-17 23:56:42] INFO  [2-research] finance.yahoo.com: kept 3 verified facts
+[2026-11-17 23:56:42] INFO  [2-research] finance.yahoo.com: kept 2 verified facts
+[2026-11-17 23:56:42] INFO  [2-research] earningscall.biz: kept 3 verified facts
+[2026-11-17 23:56:42] INFO  [2-research] earningscall.biz: kept 4 verified facts
+[2026-11-17 23:56:42] INFO  [2-research] fool.com: kept 14 verified facts
+[2026-11-17 23:56:42] INFO  [2-research] fool.com: kept 11 verified facts
+[2026-11-17 23:56:42] INFO  [2-research] Synthesising research brief from verified facts
+[2026-11-17 23:56:42] WARN  [2-research] LLM error on synthesise research brief (429, gemini-3.5-flash-lite): 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and 
+[2026-11-17 23:56:42] WARN  [2-research] switching synthesise research brief to gemini-3.1-flash-lite
+[2026-11-17 23:56:48] INFO  [2-research] LLM ok: synthesise research brief (4.6s, gemini-3.1-flash-lite)
+[2026-11-17 23:56:48] INFO  Stage 2: Deep account research done in 175.3s -> output/stage2_research.json
+[2026-11-17 23:56:48] INFO  === Stage 4: Case study matching ===
+[2026-11-17 23:56:48] INFO  [4-case-study] Discovering case studies on flytbase.com
+[2026-11-17 23:56:48] INFO  [4-case-study] Found 24 English case study URLs
+[2026-11-17 23:56:48] INFO  [4-case-study] Fetched 24 case studies
+[2026-11-17 23:56:50] INFO  [4-case-study] LLM ok: detect organisations in email (1.7s, gemini-3.5-flash-lite)
+[2026-11-17 23:56:50] INFO  [4-case-study] Organisations in email: Sociedad Quimica y Minera de Chile (SQM) (sender's company), Anglo American (referrer)
+[2026-11-17 23:56:50] INFO  [4-case-study] 'Sociedad Quimica y Minera de Chile (SQM)' (sender's company) is mentioned in: How SQM Turned a 678 km² Mine into an Autonomous Inspection Zone | FlytBase | FlytBase
+[2026-11-17 23:56:50] INFO  [4-case-study] 'Anglo American' (referrer) is mentioned in: How Anglo American Uses Autonomous Drones to Transform Mining Safety in Peru | FlytBase Case Study | FlytBase
+[2026-11-17 23:56:52] INFO  [4-case-study] LLM ok: score 24 case studies (2.7s, gemini-3.5-flash-lite)
+[2026-11-17 23:56:54] INFO  [4-case-study] LLM ok: explain best match (1.8s, gemini-3.5-flash-lite)
+[2026-11-17 23:56:54] INFO  [4-case-study] Best match: How SQM Turned a 678 km² Mine into an Autonomous Inspection Zone | FlytBase | FlytBase (10.0/10)
+[2026-11-17 23:56:54] INFO  Stage 4: Case study matching done in 6.2s -> output/stage4_case_study.json
+[2026-11-17 23:56:54] INFO  === Stage 5: Partner / sales motion ===
+[2026-11-17 23:56:54] INFO  [5-sales-motion] Partner pages found in sitemap: ['https://flytbase.com/partner']
+[2026-11-17 23:56:54] INFO  [5-sales-motion] Parsing partner directory
+[2026-11-17 23:56:56] WARN  [5-sales-motion] LLM error on parse partner directory (ServerError, gemini-3.5-flash-lite): 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand 
+[2026-11-17 23:56:56] WARN  [5-sales-motion] switching parse partner directory to gemini-3.1-flash-lite
+[2026-11-17 23:57:21] INFO  [5-sales-motion] LLM ok: parse partner directory (24.1s, gemini-3.1-flash-lite)
+[2026-11-17 23:57:21] INFO  [5-sales-motion] 126 partners parsed, 9 in LATAM, 1 in Chile
+[2026-11-17 23:57:21] INFO  [5-sales-motion] Lead's company already appears in 1 FlytBase case stud(ies): checking which partner delivered it
+[2026-11-17 23:57:23] INFO  [5-sales-motion] LLM ok: recommend sales motion (2.3s, gemini-3.5-flash-lite)
+[2026-11-17 23:57:23] INFO  [5-sales-motion] Recommended motion: hybrid
+[2026-11-17 23:57:23] INFO  Stage 5: Partner / sales motion done in 28.9s -> output/stage5_sales_motion.json
+[2026-11-17 23:57:23] INFO  === Stage 3: Adaptive email sequence ===
+[2026-11-17 23:57:23] WARN  [3-email-sequence] LLM error on write email sequence (429, gemini-3.5-flash): 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and 
+[2026-11-17 23:57:23] WARN  [3-email-sequence] switching write email sequence to gemini-3.1-flash-lite
+[2026-11-17 23:57:37] INFO  [3-email-sequence] LLM ok: write email sequence (12.1s, gemini-3.1-flash-lite)
+[2026-11-17 23:57:37] WARN  [3-email-sequence] check failed: Email 1 must mention, neutrally, that FlytBase already has a deployment at the lead's own company (see BEST CASE STUDY) and ask whether his division is connected to it.
+[2026-11-17 23:57:37] WARN  [3-email-sequence] check failed: Email 3 offers ['technical requirements'], which are not in the inputs. Remove; offer only the case study link or a short call.
+[2026-11-17 23:57:37] WARN  [3-email-sequence] check failed: Email 1 body is 64 words; it must be 70 to 120 words.
+[2026-11-17 23:57:37] WARN  [3-email-sequence] check failed: Email 3 body is 66 words; it must be 70 to 120 words.
+[2026-11-17 23:57:37] WARN  [3-email-sequence] check failed: Email 4 body is 63 words; it must be 70 to 120 words.
+[2026-11-17 23:57:37] WARN  [3-email-sequence] check failed: Email 2 uses no research fact. Use one specific number or event from FACTS (for example a capex figure or a named project) and cite its id in fact_ids_used.
+[2026-11-17 23:57:37] WARN  [3-email-sequence] check failed: Email 3 uses no research fact. Use one specific number or event from FACTS (for example a capex figure or a named project) and cite its id in fact_ids_used.
+[2026-11-17 23:57:37] WARN  [3-email-sequence] LLM error on rewrite email sequence after checks (429, gemini-3.5-flash): 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and 
+[2026-11-17 23:57:37] WARN  [3-email-sequence] switching rewrite email sequence after checks to gemini-3.1-flash-lite
+[2026-11-17 23:57:48] WARN  [3-email-sequence] LLM returned invalid JSON for rewrite email sequence after checks, retrying
+[2026-11-17 23:57:48] WARN  [3-email-sequence] Writer model busy (LLM failed after 2 attempts: rewrite email sequence after ch), falling back to gemini-3.5-flash-lite
+[2026-11-17 23:57:50] WARN  [3-email-sequence] LLM error on rewrite email sequence after checks (fallback) (ServerError, gemini-3.5-flash-lite): 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand 
+[2026-11-17 23:57:50] WARN  [3-email-sequence] switching rewrite email sequence after checks (fallback) to gemini-3.1-flash-lite
+[2026-11-17 23:57:56] WARN  [3-email-sequence] LLM returned invalid JSON for rewrite email sequence after checks (fallback), retrying
+[2026-11-17 23:58:06] WARN  [3-email-sequence] LLM returned invalid JSON for rewrite email sequence after checks (fallback), retrying
+[2026-11-17 23:58:12] WARN  [3-email-sequence] LLM returned invalid JSON for rewrite email sequence after checks (fallback), retrying
+[2026-11-17 23:58:23] INFO  [3-email-sequence] LLM ok: rewrite email sequence after checks (fallback) (10.2s, gemini-3.1-flash-lite)
+[2026-11-17 23:58:23] WARN  [3-email-sequence] still failing after rewrite: Email 1 offers ['i am curious', 'i noticed'], which are not in the inputs. Remove; offer only the case study link or a short call.
+[2026-11-17 23:58:23] WARN  [3-email-sequence] still failing after rewrite: Email 1 must thank him plainly for the referral from Anglo American.
+[2026-11-17 23:58:23] INFO  [3-email-sequence] 4 emails written
+[2026-11-17 23:58:23] INFO  Stage 3: Adaptive email sequence done in 59.6s -> output/stage3_email_sequence.json
+[2026-11-17 23:58:23] INFO  === Stage 6: AE handoff ===
+[2026-11-17 23:58:23] WARN  [6-ae-handoff] LLM error on write AE handoff (429, gemini-3.5-flash): 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and 
+[2026-11-17 23:58:23] WARN  [6-ae-handoff] switching write AE handoff to gemini-3.1-flash-lite
+[2026-11-17 23:58:31] INFO  [6-ae-handoff] LLM ok: write AE handoff (6.6s, gemini-3.1-flash-lite)
+[2026-11-17 23:58:31] INFO  [6-ae-handoff] Handoff ready
+[2026-11-17 23:58:31] INFO  Stage 6: AE handoff done in 7.9s -> output/stage6_ae_handoff.json
+[2026-11-17 23:58:31] INFO  Report written -> output/report.md
+[2026-11-17 23:58:31] INFO  Run finished in 286s
+[2026-11-17 23:59:11] WARN  [3-email-sequence] LLM error on write email sequence (429, gemini-3.5-flash): 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and 
+[2026-11-17 23:59:11] WARN  [3-email-sequence] switching write email sequence to gemini-3.1-flash-lite
+[2026-11-17 23:59:20] INFO  [3-email-sequence] LLM ok: write email sequence (8.1s, gemini-3.1-flash-lite)
+[2026-11-17 23:59:20] WARN  [3-email-sequence] check failed (round 1): Email 4 body is 57 words; it must be 70 to 120 words.
+[2026-11-17 23:59:20] WARN  [3-email-sequence] LLM error on rewrite email sequence (round 1) (429, gemini-3.5-flash): 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and 
+[2026-11-17 23:59:20] WARN  [3-email-sequence] switching rewrite email sequence (round 1) to gemini-3.1-flash-lite
+[2026-11-17 23:59:28] WARN  [3-email-sequence] LLM returned invalid JSON for rewrite email sequence (round 1), retrying
+[2026-11-17 23:59:28] WARN  [3-email-sequence] Writer model busy (LLM failed after 2 attempts: rewrite email sequence (round 1), falling back to gemini-3.5-flash-lite
+[2026-11-17 23:59:31] INFO  [3-email-sequence] LLM ok: rewrite email sequence (round 1) (fallback) (3.3s, gemini-3.5-flash-lite)
+[2026-11-17 23:59:31] WARN  [3-email-sequence] check failed (round 2): Email 4 body is 65 words; it must be 70 to 120 words.
+[2026-11-17 23:59:32] WARN  [3-email-sequence] LLM error on rewrite email sequence (round 2) (429, gemini-3.5-flash): 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and 
+[2026-11-17 23:59:32] WARN  [3-email-sequence] switching rewrite email sequence (round 2) to gemini-3.1-flash-lite
+[2026-11-17 23:59:37] WARN  [3-email-sequence] LLM error on rewrite email sequence (round 2) (ServerError, gemini-3.1-flash-lite): 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand 
+[2026-11-17 23:59:37] WARN  [3-email-sequence] switching rewrite email sequence (round 2) to gemini-3.7-flash
+[2026-11-17 23:59:39] WARN  [3-email-sequence] Writer model busy (LLM failed after 2 attempts: rewrite email sequence (round 2), falling back to gemini-3.5-flash-lite
+[2026-11-17 23:59:40] WARN  [3-email-sequence] LLM error on rewrite email sequence (round 2) (fallback) (ServerError, gemini-3.5-flash-lite): 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand 
+[2026-11-17 23:59:40] WARN  [3-email-sequence] switching rewrite email sequence (round 2) (fallback) to gemini-3.1-flash-lite
+[2026-11-18 00:00:22] WARN  [3-email-sequence] LLM returned invalid JSON for rewrite email sequence (round 2) (fallback), retrying
+[2026-11-18 00:00:29] INFO  [3-email-sequence] LLM ok: rewrite email sequence (round 2) (fallback) (6.9s, gemini-3.1-flash-lite)
+[2026-11-18 00:00:29] INFO  [3-email-sequence] 4 emails written
+[2026-11-18 00:00:29] WARN  [6-ae-handoff] LLM error on write AE handoff (429, gemini-3.5-flash): 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and 
+[2026-11-18 00:00:29] WARN  [6-ae-handoff] switching write AE handoff to gemini-3.1-flash-lite
+[2026-11-18 00:00:37] INFO  [6-ae-handoff] LLM ok: write AE handoff (6.6s, gemini-3.1-flash-lite)
+[2026-11-18 00:00:37] INFO  [6-ae-handoff] Handoff ready

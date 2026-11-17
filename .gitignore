@@ -1,0 +1,8 @@
+.venv/
+.cache/
+__pycache__/
+.env
+.cache_old_*/
+.claude/
+VIDEO_SCRIPT.*
+.DS_Store

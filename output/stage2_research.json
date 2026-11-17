@@ -1,0 +1,1875 @@
+{
+  "company": "Sociedad Quimica y Minera de Chile (SQM)",
+  "queries": [
+    {
+      "category": "org_structure",
+      "query": "SQM executive team vice president operations"
+    },
+    {
+      "category": "org_structure",
+      "query": "SQM board of directors CEO management"
+    },
+    {
+      "category": "org_structure",
+      "query": "SQM Northern Operations Division executive structure report"
+    },
+    {
+      "category": "org_structure",
+      "query": "Sociedad Quimica y Minera de Chile Head of Operations leadership"
+    },
+    {
+      "category": "budget_signals",
+      "query": "SQM 20-F 2025 capital expenditures"
+    },
+    {
+      "category": "budget_signals",
+      "query": "SQM capex guidance 2026"
+    },
+    {
+      "category": "budget_signals",
+      "query": "SQM Form 20-F capex technology automation investment Chile"
+    },
+    {
+      "category": "budget_signals",
+      "query": "Sociedad Quimica y Minera de Chile annual report operational expenditure expansion spend"
+    },
+    {
+      "category": "news",
+      "query": "SQM news 2026"
+    },
+    {
+      "category": "news",
+      "query": "SQM press release 2026"
+    },
+    {
+      "category": "news",
+      "query": "SQM 6-K earnings release 2026"
+    },
+    {
+      "category": "news",
+      "query": "SQM press release operational expansion joint venture 2025 2026"
+    },
+    {
+      "category": "news",
+      "query": "Sociedad Quimica y Minera de Chile drone inspection technology news"
+    },
+    {
+      "category": "investor_letters",
+      "query": "SQM annual report 2025 letter from the chairman"
+    },
+    {
+      "category": "investor_letters",
+      "query": "SQM earnings call transcript 2026"
+    },
+    {
+      "category": "investor_letters",
+      "query": "SQM investor presentation 2026"
+    },
+    {
+      "category": "investor_letters",
+      "query": "SQM annual report 2025 pdf"
+    },
+    {
+      "category": "investor_letters",
+      "query": "SQM CEO earnings call remarks 2026"
+    },
+    {
+      "category": "investor_letters",
+      "query": "SQM CEO letter earnings call transcript automation productivity safety"
+    },
+    {
+      "category": "investor_letters",
+      "query": "Sociedad Quimica y Minera de Chile investor presentation operational priorities"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://ir.sqm.com/investor-relations/",
+      "title": "SQM: Investors",
+      "ok": false,
+      "kind": "",
+      "chars": 0,
+      "error": "ReadTimeout: HTTPSConnectionPool(host='ir.sqm.com', port=443): Read timed out. (read timeout=25)",
+      "categories": [
+        "budget_signals",
+        "investor_letters",
+        "news",
+        "org_structure"
+      ]
+    },
+    {
+      "url": "https://ir.sqm.com/system/files-encrypted/nasdaq_kms/assets/2025/06/12/2-37-42/MEMORIA%20SQM%202024_eng.pdf",
+      "title": "ANNUAL REPORT 2024",
+      "ok": false,
+      "kind": "",
+      "chars": 0,
+      "error": "ReadTimeout: HTTPSConnectionPool(host='ir.sqm.com', port=443): Read timed out. (read timeout=25)",
+      "categories": [
+        "budget_signals",
+        "org_structure"
+      ]
+    },
+    {
+      "url": "https://sqm.com/en/about-sqm/board-and-management/",
+      "title": "Board and Management | SQM Group",
+      "ok": false,
+      "kind": "",
+      "chars": 0,
+      "error": "HTTP 403",
+      "categories": [
+        "org_structure"
+      ]
+    },
+    {
+      "url": "https://ir.sqm.com/system/files-encrypted/nasdaq_kms/news/2024/12/01/22-28-38/0801e918-66f1-4698-a49b-75693ae33427.pdf",
+      "title": "Press Release",
+      "ok": false,
+      "kind": "",
+      "chars": 0,
+      "error": "ReadTimeout: HTTPSConnectionPool(host='ir.sqm.com', port=443): Read timed out. (read timeout=25)",
+      "categories": [
+        "org_structure"
+      ]
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/909037/000090903726000012/a6-k_4q2025earningsrelease.htm",
+      "title": "Document",
+      "ok": true,
+      "kind": "html",
+      "chars": 26886,
+      "error": "",
+      "categories": [
+        "budget_signals",
+        "investor_letters"
+      ]
+    },
+    {
+      "url": "https://ir.sqm.com/financials/annual-reports/",
+      "title": "Annual Reports",
+      "ok": false,
+      "kind": "",
+      "chars": 0,
+      "error": "ReadTimeout: HTTPSConnectionPool(host='ir.sqm.com', port=443): Read timed out. (read timeout=25)",
+      "categories": [
+        "budget_signals",
+        "investor_letters"
+      ]
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/909037/000090903726000023/sqm-20251231.htm",
+      "title": "sqm-20251231",
+      "ok": true,
+      "kind": "html",
+      "chars": 1516291,
+      "error": "",
+      "categories": [
+        "budget_signals",
+        "investor_letters"
+      ]
+    },
+    {
+      "url": "https://www.sqm.com/en/about-sqm/corporate-information/",
+      "title": "Corporate Information | SQM Group",
+      "ok": false,
+      "kind": "",
+      "chars": 0,
+      "error": "HTTP 403",
+      "categories": [
+        "org_structure"
+      ]
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/909037/000090903726000026/a6-k_1q2026earningsrelease.htm",
+      "title": "Document",
+      "ok": true,
+      "kind": "html",
+      "chars": 24959,
+      "error": "",
+      "categories": [
+        "budget_signals"
+      ]
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/909037/000110465921145125/tm2134212d1_6k.htm",
+      "title": "securities and exchange commission",
+      "ok": true,
+      "kind": "html",
+      "chars": 446704,
+      "error": "",
+      "categories": [
+        "budget_signals"
+      ]
+    },
+    {
+      "url": "https://sqm.com/wp-content/uploads/2018/04/SQM-CorpPres_BAML.pdf",
+      "title": "First Quarter 2017 Earnings Presentation",
+      "ok": false,
+      "kind": "",
+      "chars": 0,
+      "error": "HTTP 403",
+      "categories": [
+        "investor_letters"
+      ]
+    },
+    {
+      "url": "https://minedocs.com/26/SQM-AR-2023.pdf",
+      "title": "SQM-AR-2023.pdf",
+      "ok": true,
+      "kind": "pdf",
+      "chars": 634132,
+      "error": "",
+      "categories": [
+        "budget_signals",
+        "org_structure"
+      ]
+    },
+    {
+      "url": "https://finance.yahoo.com/quote/SQM/earnings/SQM-Q2-2026-earnings_call-563665.html",
+      "title": "Sociedad Quimica y Minera S.A. (SQM) Q2 FY2026 ...",
+      "ok": false,
+      "kind": "",
+      "chars": 0,
+      "error": "HTTP 404",
+      "categories": [
+        "budget_signals",
+        "investor_letters"
+      ]
+    },
+    {
+      "url": "https://www.marketbeat.com/stocks/NYSE/SQM/earnings/",
+      "title": "Sociedad Quimica y Minera (SQM) Earnings Date and ...",
+      "ok": false,
+      "kind": "",
+      "chars": 0,
+      "error": "HTTP 403",
+      "categories": [
+        "investor_letters",
+        "news"
+      ]
+    },
+    {
+      "url": "https://ca.finance.yahoo.com/sec-filing/SQM/0000909037-25-000042_909037",
+      "title": "SQM 6-K & SEC Filings",
+      "ok": false,
+      "kind": "",
+      "chars": 0,
+      "error": "HTTP 404",
+      "categories": [
+        "budget_signals"
+      ]
+    },
+    {
+      "url": "https://www.investing.com/news/company-news/sqm-q2-2026-slides-lithium-sales-surge-drives-record-results-93CH-4867962",
+      "title": "SQM Q2 2026 slides: lithium sales surge drives record results",
+      "ok": false,
+      "kind": "",
+      "chars": 0,
+      "error": "HTTP 403",
+      "categories": [
+        "budget_signals"
+      ]
+    },
+    {
+      "url": "https://www.prnewswire.com/news-releases/sqm-files-its-annual-report-on-form-20-f-for-the-year-2020-301247777.html",
+      "title": "SQM Files Its Annual Report On Form 20-F For The Year 2020",
+      "ok": true,
+      "kind": "html",
+      "chars": 5574,
+      "error": "",
+      "categories": [
+        "budget_signals"
+      ]
+    },
+    {
+      "url": "https://finance.yahoo.com/quote/SQM/financials/",
+      "title": "Sociedad Química y Minera de Chile SA (SQM)",
+      "ok": false,
+      "kind": "",
+      "chars": 0,
+      "error": "HTTP 404",
+      "categories": [
+        "budget_signals"
+      ]
+    },
+    {
+      "url": "https://www.marketbeat.com/instant-alerts/price-sociedad-quimica-y-minera-nyse-sqm-hits-new-12-month-low-should-you-sell-2026-11-16/",
+      "title": "Sociedad Quimica y Minera (NYSE:SQM) Hits New 12-Month Low - Should You Sell?",
+      "ok": false,
+      "kind": "html",
+      "chars": 202,
+      "error": "identity gate: page does not name the company",
+      "categories": [
+        "news"
+      ]
+    },
+    {
+      "url": "https://finance.yahoo.com/markets/stocks/articles/sqm-reports-earnings-six-months-071900146.html",
+      "title": "SQM Reports Earnings for the Six Months Ended June 30, 2026",
+      "ok": true,
+      "kind": "html",
+      "chars": 4972,
+      "error": "",
+      "categories": [
+        "news"
+      ]
+    },
+    {
+      "url": "https://seekingalpha.com/symbol/SQM",
+      "title": "Sociedad Química y Minera de Chile S.A. (SQM) Stock ...",
+      "ok": false,
+      "kind": "",
+      "chars": 0,
+      "error": "HTTP 403",
+      "categories": [
+        "news"
+      ]
+    },
+    {
+      "url": "https://www.marketbeat.com/stocks/NYSE/SQM/news/",
+      "title": "Sociedad Quimica y Minera (SQM) News Today",
+      "ok": false,
+      "kind": "",
+      "chars": 0,
+      "error": "HTTP 403",
+      "categories": [
+        "news"
+      ]
+    },
+    {
+      "url": "https://ng.investing.com/news/company-news/sqm-q2-2026-slides-lithium-rebound-drives-record-quarter-93CH-2667263",
+      "title": "SQM Q2 2026 slides: lithium rebound drives record quarter",
+      "ok": false,
+      "kind": "",
+      "chars": 0,
+      "error": "HTTP 403",
+      "categories": [
+        "news"
+      ]
+    },
+    {
+      "url": "https://seekingalpha.com/news/4597703-sqm-targets-15-percent-2026-lithium-sales-growth-as-salar-futuro-is-sized-at-3b",
+      "title": "SQM targets ~15% 2026 lithium sales growth as Salar ...",
+      "ok": false,
+      "kind": "",
+      "chars": 0,
+      "error": "HTTP 403",
+      "categories": [
+        "news"
+      ]
+    },
+    {
+      "url": "https://finance.yahoo.com/news/sqm-profit-return-record-lithium-211436397.html",
+      "title": "SQM Profit Return And Record Lithium Output Reshape Long Term Growth Prospects",
+      "ok": true,
+      "kind": "html",
+      "chars": 7474,
+      "error": "",
+      "categories": [
+        "news"
+      ]
+    },
+    {
+      "url": "https://www.mining.com/autonomous-drones-to-lead-the-way-in-mining-surveillance-technology-report/",
+      "title": "Autonomous drones to lead the way in mining surveillance technology — report - MINING.COM",
+      "ok": false,
+      "kind": "html",
+      "chars": 5632,
+      "error": "identity gate: page does not name the company",
+      "categories": [
+        "news"
+      ]
+    },
+    {
+      "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-sqm-q1-2026-beats-revenue-expectations-stock-rises-93CH-4712829",
+      "title": "SQM Q1 2026 beats revenue expectations, stock rises",
+      "ok": false,
+      "kind": "",
+      "chars": 0,
+      "error": "HTTP 403",
+      "categories": [
+        "investor_letters"
+      ]
+    },
+    {
+      "url": "https://seekingalpha.com/symbol/SQM/earnings/transcripts",
+      "title": "Sociedad Química y Minera de Chile S.A. (SQM) Earnings ...",
+      "ok": false,
+      "kind": "",
+      "chars": 0,
+      "error": "HTTP 403",
+      "categories": [
+        "investor_letters"
+      ]
+    },
+    {
+      "url": "https://www.marketbeat.com/earnings/reports/2026-5-26-sociedad-qumica-y-minera-de-chile-sa-stock/",
+      "title": "Sociedad Quimica y Minera Q1 2026 Earnings Results ...",
+      "ok": false,
+      "kind": "",
+      "chars": 0,
+      "error": "host skipped: timed out or blocked earlier in this run",
+      "categories": [
+        "investor_letters"
+      ]
+    },
+    {
+      "url": "https://earningscall.biz/e/nyse/s/sqm/y/2025/q/q1",
+      "title": "EarningsCall Â· SQM Q1 2025",
+      "ok": true,
+      "kind": "html",
+      "chars": 5581,
+      "error": "",
+      "categories": [
+        "investor_letters"
+      ]
+    },
+    {
+      "url": "https://au.investing.com/news/stock-market-news/earnings-call-transcript-sqm-q1-2026-beats-revenue-expectations-stock-rises-93CH-4458525",
+      "title": "SQM Q1 2026 beats revenue expectations, stock rises",
+      "ok": false,
+      "kind": "",
+      "chars": 0,
+      "error": "HTTP 403",
+      "categories": [
+        "investor_letters"
+      ]
+    },
+    {
+      "url": "https://earningscall.biz/e/nyse/s/sqm/y/2022/q/q1",
+      "title": "EarningsCall Â· SQM Q1 2022",
+      "ok": true,
+      "kind": "html",
+      "chars": 6567,
+      "error": "",
+      "categories": [
+        "investor_letters"
+      ]
+    },
+    {
+      "url": "https://www.fool.com/earnings/call-transcripts/2020/05/20/sociedad-quimica-y-minera-sqm-q1-2020-earnings-cal.aspx",
+      "title": "Sociedad Quimica y Minera (SQM) Q1 2020 Earnings Call Transcript | The Motley Fool",
+      "ok": true,
+      "kind": "html",
+      "chars": 30955,
+      "error": "",
+      "categories": [
+        "investor_letters"
+      ]
+    },
+    {
+      "url": "https://seekingalpha.com/article/4815441-sociedad-quimica-y-minera-de-chile-s-a-sqm-q2-2025-earnings-call-transcript",
+      "title": "Sociedad Química y Minera de Chile S.A. (SQM) Q2 2025 ...",
+      "ok": false,
+      "kind": "",
+      "chars": 0,
+      "error": "host skipped: timed out or blocked earlier in this run",
+      "categories": [
+        "investor_letters"
+      ]
+    },
+    {
+      "url": "https://www.fool.com/earnings/call-transcripts/2021/08/19/sociedad-quimica-y-minera-de-chile-sa-sqm-q2-2021/",
+      "title": "Sociedad Quimica Y Minera De Chile SA (SQM) Q2 2021 Earnings Call Transcript | The Motley Fool",
+      "ok": true,
+      "kind": "html",
+      "chars": 32729,
+      "error": "",
+      "categories": [
+        "investor_letters"
+      ]
+    },
+    {
+      "url": "https://www.investing.com/news/stock-market-news/earnings-call-sqm-sees-strong-q1-growth-plans-capacity-expansion-93CH-3455092",
+      "title": "SQM sees strong Q1 growth, plans capacity expansion",
+      "ok": false,
+      "kind": "",
+      "chars": 0,
+      "error": "host skipped: timed out or blocked earlier in this run",
+      "categories": [
+        "investor_letters"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "id": "F1",
+      "category": "org_structure",
+      "fact": "Gerardo Illanes is a contact for further information at SQM.",
+      "evidence": "For further information, contact: Gerardo Illanes / gerardo.illanes@sqm.com",
+      "as_of": "December 2025",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/909037/000090903726000012/a6-k_4q2025earningsrelease.htm",
+      "source_title": "Document",
+      "evidence_verified": true
+    },
+    {
+      "id": "F2",
+      "category": "org_structure",
+      "fact": "Isabel Bendeck is a contact for further information at SQM.",
+      "evidence": "Isabel Bendeck / isabel.bendeck@sqm.com",
+      "as_of": "December 2025",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/909037/000090903726000012/a6-k_4q2025earningsrelease.htm",
+      "source_title": "Document",
+      "evidence_verified": true
+    },
+    {
+      "id": "F3",
+      "category": "org_structure",
+      "fact": "Megan Suitor is a contact for further information at SQM.",
+      "evidence": "Megan Suitor / megan.suitor@sqm.com",
+      "as_of": "December 2025",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/909037/000090903726000012/a6-k_4q2025earningsrelease.htm",
+      "source_title": "Document",
+      "evidence_verified": true
+    },
+    {
+      "id": "F4",
+      "category": "org_structure",
+      "fact": "Ignacia Lopez handles media inquiries for Nova Andino Litio.",
+      "evidence": "Nova Andino Litio: Ignacia Lopez / ignacia.lopez@sqm.com",
+      "as_of": "December 2025",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/909037/000090903726000012/a6-k_4q2025earningsrelease.htm",
+      "source_title": "Document",
+      "evidence_verified": true
+    },
+    {
+      "id": "F5",
+      "category": "org_structure",
+      "fact": "Diana Wearing Smith handles media inquiries for the International Lithium Division.",
+      "evidence": "International Lithium Division: Diana Wearing Smith / diana.wearingsmith@sqm.com",
+      "as_of": "December 2025",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/909037/000090903726000012/a6-k_4q2025earningsrelease.htm",
+      "source_title": "Document",
+      "evidence_verified": true
+    },
+    {
+      "id": "F6",
+      "category": "org_structure",
+      "fact": "Carolina Guzman handles media inquiries for the Iodine & Plant Nutrition Division.",
+      "evidence": "Iodine & Plant Nutrition Division: Carolina Guzman / carolina.guzman@sqm.com",
+      "as_of": "December 2025",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/909037/000090903726000012/a6-k_4q2025earningsrelease.htm",
+      "source_title": "Document",
+      "evidence_verified": true
+    },
+    {
+      "id": "F7",
+      "category": "budget_signals",
+      "fact": "SQM reported total revenues of US$4,576.2 million for the twelve months ended December 31, 2025.",
+      "evidence": "SQM reported total revenues for the twelve months ended December 31, 2025 of US$4,576.2 million compared to total revenues of US$4,528.8 million for the same period last year.",
+      "as_of": "December 31, 2025",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/909037/000090903726000012/a6-k_4q2025earningsrelease.htm",
+      "source_title": "Document",
+      "evidence_verified": true
+    },
+    {
+      "id": "F8",
+      "category": "budget_signals",
+      "fact": "Adjusted EBITDA for the twelve months ended December 31, 2025 reached US$1,579.6 million.",
+      "evidence": "Adjusted EBITDA for the twelve months ended December 31, 2025, reached US$1,579.6 million (Adjusted EBITDA margin of 34.5%), compared to US$1,483.6 million (Adjusted EBITDA margin of 32.8%) for the twelve months ended December 31, 2024.",
+      "as_of": "December 31, 2025",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/909037/000090903726000012/a6-k_4q2025earningsrelease.htm",
+      "source_title": "Document",
+      "evidence_verified": true
+    },
+    {
+      "id": "F9",
+      "category": "org_structure",
+      "fact": "Ricardo Ramos serves as the Chief Executive Officer of SQM.",
+      "evidence": "SQM’s Chief Executive Officer, Ricardo Ramos, stated, “We delivered strong results during the first quarter of the year.",
+      "as_of": "March 31, 2026",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/909037/000090903726000026/a6-k_1q2026earningsrelease.htm",
+      "source_title": "Document",
+      "evidence_verified": true
+    },
+    {
+      "id": "F10",
+      "category": "budget_signals",
+      "fact": "SQM reported property, plant and equipment assets of US$4,917.2 million.",
+      "evidence": "Property, plant and equipment 4,917.2 4,839.5",
+      "as_of": "March 31, 2026",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/909037/000090903726000026/a6-k_1q2026earningsrelease.htm",
+      "source_title": "Document",
+      "evidence_verified": true
+    },
+    {
+      "id": "F11",
+      "category": "news",
+      "fact": "SQM is commissioning a new seawater pipeline to support production capacity.",
+      "evidence": "In the meantime, we remain focused on operating at maximum capacity, and, with the upcoming commissioning of our seawater pipeline, we expect to reach production capacity above 15,000 tons this year.",
+      "as_of": "May 26, 2026",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/909037/000090903726000026/a6-k_1q2026earningsrelease.htm",
+      "source_title": "Document",
+      "evidence_verified": true
+    },
+    {
+      "id": "F12",
+      "category": "investor_letters",
+      "fact": "The company is prioritizing maximum operational capacity to meet strong customer demand in the lithium segment.",
+      "evidence": "In lithium, sales volumes reached approximately 69 thousand metric tons of LCE across our operations, as we continued to operate at full capacity to meet strong customer demand.",
+      "as_of": "March 31, 2026",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/909037/000090903726000026/a6-k_1q2026earningsrelease.htm",
+      "source_title": "Document",
+      "evidence_verified": true
+    },
+    {
+      "id": "F13",
+      "category": "investor_letters",
+      "fact": "SQM is prioritizing higher lithium-content brines at the Atacama salt flat, which has impacted potash production volumes.",
+      "evidence": "Following the previously announced reduction in sales volumes for this business line, volumes were more than 30% lower compared to the same period last year, mainly due to lower potash production at the Atacama salt flat as we prioritize higher lithium-content brines.",
+      "as_of": "March 31, 2026",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/909037/000090903726000026/a6-k_1q2026earningsrelease.htm",
+      "source_title": "Document",
+      "evidence_verified": true
+    },
+    {
+      "id": "F14",
+      "category": "news",
+      "fact": "Two of the Company's subsidiaries signed an agreement to terminate a dispute related to sales contracts and interest in the joint venture of Sichuan SQM Migao Chemical Fertilizers Co Ltd.",
+      "evidence": "On February 9, 2021, two of the Company’s subsidiaries signed an agreement to terminate a dispute related to sales contracts and interest in the joint venture of Sichuan SQM Migao Chemical Fertilizers Co Ltd.",
+      "as_of": "February 9, 2021",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/909037/000110465921145125/tm2134212d1_6k.htm",
+      "source_title": "securities and exchange commission",
+      "evidence_verified": true
+    },
+    {
+      "id": "F15",
+      "category": "org_structure",
+      "fact": "Ricardo Ramos Rodríguez serves as the Chief Executive Officer of SQM.",
+      "evidence": "With my warmest rewards, Ricardo Ramos Rodríguez Chief Executive Officer SQM IN NUMBERS",
+      "as_of": "2023",
+      "source_url": "https://minedocs.com/26/SQM-AR-2023.pdf",
+      "source_title": "SQM-AR-2023.pdf",
+      "evidence_verified": true
+    },
+    {
+      "id": "F16",
+      "category": "org_structure",
+      "fact": "Gerardo Illanes serves as the Finance VP and CFO of SQM.",
+      "evidence": "Finance VP and CFO Gerardo Illanes",
+      "as_of": "2023",
+      "source_url": "https://minedocs.com/26/SQM-AR-2023.pdf",
+      "source_title": "SQM-AR-2023.pdf",
+      "evidence_verified": true
+    },
+    {
+      "id": "F17",
+      "category": "org_structure",
+      "fact": "Gonzalo Guerrero Yamamoto is the Chairman of the Board of Directors of SQM S.A. and a member of the Safety, Health, and Environment Committee.",
+      "evidence": "Gonzalo Guerrero Yamamoto Chilean ID: 10.581.580-8 Chilean Election date: April 2023 Chairman of the Board of Directors of SQM S.A. and member of the Safety, Health, and Environment Committee.",
+      "as_of": "April 2023",
+      "source_url": "https://minedocs.com/26/SQM-AR-2023.pdf",
+      "source_title": "SQM-AR-2023.pdf",
+      "evidence_verified": true
+    },
+    {
+      "id": "F18",
+      "category": "org_structure",
+      "fact": "Patricio Contesse Fica serves as the Vice Chairman and Member of the Corporate Governance Committee.",
+      "evidence": "Patricio Contesse Fica Chilean ID: 15.315.085-0 Chilean Election date: April 2023 Vice Chairman and Member of the Corporate Governance Committee",
+      "as_of": "April 2023",
+      "source_url": "https://minedocs.com/26/SQM-AR-2023.pdf",
+      "source_title": "SQM-AR-2023.pdf",
+      "evidence_verified": true
+    },
+    {
+      "id": "F19",
+      "category": "budget_signals",
+      "fact": "SQM reported capital expenditures of US$1,103.6 million for the year 2023.",
+      "evidence": "Our capital expenditures for the years ended December 31, 2023, 2022 and 2021 were as follows: (In milions of US$) 2023 2022 2021 Capital expenditures………………. 1.103,6 905,2 464,7 2023 During 2023, we had total capital expenditures of US$1,103.6 million.",
+      "as_of": "2023",
+      "source_url": "https://minedocs.com/26/SQM-AR-2023.pdf",
+      "source_title": "SQM-AR-2023.pdf",
+      "evidence_verified": true
+    },
+    {
+      "id": "F20",
+      "category": "budget_signals",
+      "fact": "SQM expects its capital expenditure for the 2024-2025 period to reach approximately US$2.4 billion, including maintenance.",
+      "evidence": "We expect our capital expenditure for the 2024-2025 period to reach approximately US$2.4 billion, including maintenance.",
+      "as_of": "2024-2025",
+      "source_url": "https://minedocs.com/26/SQM-AR-2023.pdf",
+      "source_title": "SQM-AR-2023.pdf",
+      "evidence_verified": true
+    },
+    {
+      "id": "F21",
+      "category": "investor_letters",
+      "fact": "SQM aims to maintain its leading world position in specific markets including lithium, potassium nitrate, iodine, and thermo-solar salts.",
+      "evidence": "We aim to maintain our leading world position in the lithium, potassium nitrate, iodine and thermo-solar salts markets.",
+      "as_of": "2023",
+      "source_url": "https://minedocs.com/26/SQM-AR-2023.pdf",
+      "source_title": "SQM-AR-2023.pdf",
+      "evidence_verified": true
+    },
+    {
+      "id": "F22",
+      "category": "org_structure",
+      "fact": "Gerardo Illanes is a contact for investor relations.",
+      "evidence": "For further information, contact: Gerardo Illanes 56-2-24252022 / [email protected]",
+      "as_of": "March 15, 2021",
+      "source_url": "https://www.prnewswire.com/news-releases/sqm-files-its-annual-report-on-form-20-f-for-the-year-2020-301247777.html",
+      "source_title": "SQM Files Its Annual Report On Form 20-F For The Year 2020",
+      "evidence_verified": true
+    },
+    {
+      "id": "F23",
+      "category": "org_structure",
+      "fact": "Kelly O'Brien is a contact for investor relations.",
+      "evidence": "Kelly O'Brien 56-2-24252074 / [email protected]",
+      "as_of": "March 15, 2021",
+      "source_url": "https://www.prnewswire.com/news-releases/sqm-files-its-annual-report-on-form-20-f-for-the-year-2020-301247777.html",
+      "source_title": "SQM Files Its Annual Report On Form 20-F For The Year 2020",
+      "evidence_verified": true
+    },
+    {
+      "id": "F24",
+      "category": "org_structure",
+      "fact": "Irina Axenova is a contact for investor relations.",
+      "evidence": "Irina Axenova 56-2-24252280 / [email protected]",
+      "as_of": "March 15, 2021",
+      "source_url": "https://www.prnewswire.com/news-releases/sqm-files-its-annual-report-on-form-20-f-for-the-year-2020-301247777.html",
+      "source_title": "SQM Files Its Annual Report On Form 20-F For The Year 2020",
+      "evidence_verified": true
+    },
+    {
+      "id": "F25",
+      "category": "investor_letters",
+      "fact": "The company prioritizes safe and accident-free operations.",
+      "evidence": "We strive for safe and accident-free operations by promoting conduct that favors the physical safety and psychological well-being of everyone who works directly and indirectly with the Company.",
+      "as_of": "March 15, 2021",
+      "source_url": "https://www.prnewswire.com/news-releases/sqm-files-its-annual-report-on-form-20-f-for-the-year-2020-301247777.html",
+      "source_title": "SQM Files Its Annual Report On Form 20-F For The Year 2020",
+      "evidence_verified": true
+    },
+    {
+      "id": "F26",
+      "category": "investor_letters",
+      "fact": "The company aims to strengthen operational and logistical processes while maintaining cost leadership.",
+      "evidence": "Strengthening our operational, logistical and commercial excellence process from beginning to end, while looking to be a cost leader; and Maintaining a conservative financial policy which allows us to successfully endure economic cycles that could impact the markets in which we sell.",
+      "as_of": "March 15, 2021",
+      "source_url": "https://www.prnewswire.com/news-releases/sqm-files-its-annual-report-on-form-20-f-for-the-year-2020-301247777.html",
+      "source_title": "SQM Files Its Annual Report On Form 20-F For The Year 2020",
+      "evidence_verified": true
+    },
+    {
+      "id": "F27",
+      "category": "investor_letters",
+      "fact": "The company is focused on sustainable expansion projects and improving existing operations to minimize environmental impact.",
+      "evidence": "We will continue to create value for all of our stakeholders through responsible management of natural resources, sustainable expansion projects and improvement of our existing operations, with a focus on minimizing our environmental impacts by reducing our carbon, energy and water footprints",
+      "as_of": "March 15, 2021",
+      "source_url": "https://www.prnewswire.com/news-releases/sqm-files-its-annual-report-on-form-20-f-for-the-year-2020-301247777.html",
+      "source_title": "SQM Files Its Annual Report On Form 20-F For The Year 2020",
+      "evidence_verified": true
+    },
+    {
+      "id": "F28",
+      "category": "news",
+      "fact": "SQM filed its Annual Report on Form 20-F for the fiscal year ended December 31, 2020.",
+      "evidence": "Sociedad Quimica y Minera de Chile S.A. (SQM) (NYSE: SQM ; Santiago Stock Exchange: SQM-B, SQM-A) announced today that it has filed its Annual Report on Form 20-F for the fiscal year ended December 31, 2020 , with the U.S. Securities and Exchange Commission",
+      "as_of": "March 15, 2021",
+      "source_url": "https://www.prnewswire.com/news-releases/sqm-files-its-annual-report-on-form-20-f-for-the-year-2020-301247777.html",
+      "source_title": "SQM Files Its Annual Report On Form 20-F For The Year 2020",
+      "evidence_verified": true
+    },
+    {
+      "id": "F29",
+      "category": "budget_signals",
+      "fact": "SQM reported total revenues of US$4,228.5 million for the six months ended June 30, 2026.",
+      "evidence": "SQM reported total revenues for the six months ended June 30, 2026 of US$4,228.5 million compared to total revenues of US$2,079.3 million for the same period last year.",
+      "as_of": "June 30, 2026",
+      "source_url": "https://finance.yahoo.com/markets/stocks/articles/sqm-reports-earnings-six-months-071900146.html",
+      "source_title": "SQM Reports Earnings for the Six Months Ended June 30, 2026",
+      "evidence_verified": true
+    },
+    {
+      "id": "F30",
+      "category": "org_structure",
+      "fact": "Ricardo Ramos serves as the Chief Executive Officer of SQM.",
+      "evidence": "SQM's Chief Executive Officer, Ricardo Ramos, stated, \"I am pleased to announce SQM's second-quarter results.\"",
+      "as_of": "August 19, 2026",
+      "source_url": "https://finance.yahoo.com/markets/stocks/articles/sqm-reports-earnings-six-months-071900146.html",
+      "source_title": "SQM Reports Earnings for the Six Months Ended June 30, 2026",
+      "evidence_verified": true
+    },
+    {
+      "id": "F31",
+      "category": "investor_letters",
+      "fact": "CEO Ricardo Ramos stated that SQM achieved record-high quarterly sales volumes surpassing 84 thousand metric tons of LCE in lithium.",
+      "evidence": "In lithium, we achieved record quarterly sales volumes of over 84 thousand metric tons of Lithium Carbonate Equivalent (LCE) from our lithium operations in Chile through Nova Andino Litioii and in Australia through Covalent Lithiumiii.",
+      "as_of": "August 19, 2026",
+      "source_url": "https://finance.yahoo.com/markets/stocks/articles/sqm-reports-earnings-six-months-071900146.html",
+      "source_title": "SQM Reports Earnings for the Six Months Ended June 30, 2026",
+      "evidence_verified": true
+    },
+    {
+      "id": "F32",
+      "category": "budget_signals",
+      "fact": "SQM is planning around US$2.7 billion of capex through 2027 to expand lithium carbonate and hydroxide capacity in Chile and Australia.",
+      "evidence": "SQM is planning around US$2.7b of capex through 2027 to expand lithium carbonate and hydroxide capacity in Chile and Australia.",
+      "as_of": "March 2, 2026",
+      "source_url": "https://finance.yahoo.com/news/sqm-profit-return-record-lithium-211436397.html",
+      "source_title": "SQM Profit Return And Record Lithium Output Reshape Long Term Growth Prospects",
+      "evidence_verified": true
+    },
+    {
+      "id": "F33",
+      "category": "news",
+      "fact": "The Nova Andino Litio SpA venture reached 233,000 tons of lithium carbonate equivalent in 2025, which was above initial targets.",
+      "evidence": "The Nova Andino Litio SpA venture reached 233,000 tons of lithium carbonate equivalent in 2025, above initial targets",
+      "as_of": "2025",
+      "source_url": "https://finance.yahoo.com/news/sqm-profit-return-record-lithium-211436397.html",
+      "source_title": "SQM Profit Return And Record Lithium Output Reshape Long Term Growth Prospects",
+      "evidence_verified": true
+    },
+    {
+      "id": "F34",
+      "category": "org_structure",
+      "fact": "Isabel Bentec serves as the Investor Relations Officer of SQM.",
+      "evidence": "Now it's my pleasure to turn the call over to the Investor Relations Officer, Isabel Bentec.",
+      "as_of": "Q1 2025",
+      "source_url": "https://earningscall.biz/e/nyse/s/sqm/y/2025/q/q1",
+      "source_title": "EarningsCall Â· SQM Q1 2025",
+      "evidence_verified": true
+    },
+    {
+      "id": "F35",
+      "category": "org_structure",
+      "fact": "Ricardo Ramos is the Chief Executive Officer of SQM.",
+      "evidence": "Today's speakers include CEO Ricardo Ramos, CFO Gerardo Llanes, Carlos Diaz, CEO of Lithium Chile Division...",
+      "as_of": "Q1 2025",
+      "source_url": "https://earningscall.biz/e/nyse/s/sqm/y/2025/q/q1",
+      "source_title": "EarningsCall Â· SQM Q1 2025",
+      "evidence_verified": true
+    },
+    {
+      "id": "F36",
+      "category": "org_structure",
+      "fact": "Pablo Altimiras is the CEO of the Iodine and Plant Nutrition Division.",
+      "evidence": "Pablo Altimiras, CEO of Iodine and Plant Nutrition Division, Andres Fontanas, Commercial Vice President of International Lithium Division.",
+      "as_of": "Q1 2025",
+      "source_url": "https://earningscall.biz/e/nyse/s/sqm/y/2025/q/q1",
+      "source_title": "EarningsCall Â· SQM Q1 2025",
+      "evidence_verified": true
+    },
+    {
+      "id": "F37",
+      "category": "org_structure",
+      "fact": "Ricardo Ramos serves as Chief Executive Officer, Gerardo Illanes as Chief Financial Officer, Carlos Diaz as Executive Vice President of Lithium Business, and Pablo Altimiras as Executive Vice President of the IDI and I-Trace Businesses.",
+      "evidence": "Speaking on the call today will be Ricardo Ramos, Chief Executive Officer, and Gerardo Illanes, Chief Financial Officer, Carlos Diaz, Executive Vice President of Lithium Business, and Pablo Altimiras, Executive Vice President of the IDI and I-Trace Businesses will be available to answer any questions.",
+      "as_of": "Q1 2022",
+      "source_url": "https://earningscall.biz/e/nyse/s/sqm/y/2022/q/q1",
+      "source_title": "EarningsCall Â· SQM Q1 2022",
+      "evidence_verified": true
+    },
+    {
+      "id": "F38",
+      "category": "budget_signals",
+      "fact": "First quarter results included payments related to the agreement with CORFO and tax provisions totaling approximately $800 billion.",
+      "evidence": "Our first quarter results include payments related to the agreement with CORPO and tax provisions that total approximately $800 billion.",
+      "as_of": "Q1 2022",
+      "source_url": "https://earningscall.biz/e/nyse/s/sqm/y/2022/q/q1",
+      "source_title": "EarningsCall Â· SQM Q1 2022",
+      "evidence_verified": true
+    },
+    {
+      "id": "F39",
+      "category": "investor_letters",
+      "fact": "The CEO stated that the company remains on target to reach 180,000 metric tons of lithium capacity in the coming months, with plans to reach 210,000 metric tons of lithium carbonate and 40,000 metric tons of lithium hydroxide advancing well.",
+      "evidence": "Finally, for lithium, We remain on target to reach the 180,000 metric tons in the coming months. Our plan to reach the 210,000 metric tons and 40,000 metric tons of capacity of lithium carbonate and lithium hydroxide respectively is advancing well.",
+      "as_of": "Q1 2022",
+      "source_url": "https://earningscall.biz/e/nyse/s/sqm/y/2022/q/q1",
+      "source_title": "EarningsCall Â· SQM Q1 2022",
+      "evidence_verified": true
+    },
+    {
+      "id": "F40",
+      "category": "investor_letters",
+      "fact": "The CEO stated that the company remains on target to increase iodine capacity by 1,000 metric tons next year and 2.5 thousand metric tons in 2024.",
+      "evidence": "In the IOD market, we remain on target to increase our capacity 1,000 metric tons next year and 2.5 thousand metric tons in 2024.",
+      "as_of": "Q1 2022",
+      "source_url": "https://earningscall.biz/e/nyse/s/sqm/y/2022/q/q1",
+      "source_title": "EarningsCall Â· SQM Q1 2022",
+      "evidence_verified": true
+    },
+    {
+      "id": "F41",
+      "category": "org_structure",
+      "fact": "Kelly O'Brien serves as the Head of Investor Relations at SQM.",
+      "evidence": "Joining the call today as speakers are Ricardo Ramos, chief executive officer; Gerardo Illanes, chief financial officer; and Felipe Smith, commercial vice president, lithium, and iodine, Asia Pacific. Before we begin, let me remind you that statements in this conference concerning t [...] considered in light of those factors.",
+      "as_of": "Q1 2020",
+      "source_url": "https://www.fool.com/earnings/call-transcripts/2020/05/20/sociedad-quimica-y-minera-sqm-q1-2020-earnings-cal.aspx",
+      "source_title": "Sociedad Quimica y Minera (SQM) Q1 2020 Earnings Call Transcript | The Motley Fool",
+      "evidence_verified": true
+    },
+    {
+      "id": "F42",
+      "category": "budget_signals",
+      "fact": "SQM reduced its 2020 capital expenditure (capex) guidance due to the pandemic and operational adjustments.",
+      "evidence": "On the other hand, we continue to move ahead with our capex program and expect it to reach approximately $350 million this year, lower than the $450 million previously announced.",
+      "as_of": "May 20, 2020",
+      "source_url": "https://www.fool.com/earnings/call-transcripts/2020/05/20/sociedad-quimica-y-minera-sqm-q1-2020-earnings-cal.aspx",
+      "source_title": "Sociedad Quimica y Minera (SQM) Q1 2020 Earnings Call Transcript | The Motley Fool",
+      "evidence_verified": true
+    },
+    {
+      "id": "F43",
+      "category": "budget_signals",
+      "fact": "The reduction in capex is attributed to delaying nonessential activities to protect worker health and safety.",
+      "evidence": "This capex delay is a result of reduced nonessential activities in our production facilities to help protect the health and safety of our workers.",
+      "as_of": "May 20, 2020",
+      "source_url": "https://www.fool.com/earnings/call-transcripts/2020/05/20/sociedad-quimica-y-minera-sqm-q1-2020-earnings-cal.aspx",
+      "source_title": "Sociedad Quimica y Minera (SQM) Q1 2020 Earnings Call Transcript | The Motley Fool",
+      "evidence_verified": true
+    },
+    {
+      "id": "F44",
+      "category": "budget_signals",
+      "fact": "SQM plans to accelerate capex in 2021 to compensate for delays incurred in 2020.",
+      "evidence": "Depending on the evolution of the pandemic, we should be able to accelerate our capex plans in 2021 and make up for any delays we see in the upcoming months.",
+      "as_of": "May 20, 2020",
+      "source_url": "https://www.fool.com/earnings/call-transcripts/2020/05/20/sociedad-quimica-y-minera-sqm-q1-2020-earnings-cal.aspx",
+      "source_title": "Sociedad Quimica y Minera (SQM) Q1 2020 Earnings Call Transcript | The Motley Fool",
+      "evidence_verified": true
+    },
+    {
+      "id": "F45",
+      "category": "investor_letters",
+      "fact": "SQM is prioritizing the continuation of its lithium expansion projects despite the pandemic.",
+      "evidence": "As a result of this, we continue to move forward with our previously announced expansion plan to expect to bring our lithium carbonate and lithium hydroxide projects online by the end of 2021.",
+      "as_of": "May 20, 2020",
+      "source_url": "https://www.fool.com/earnings/call-transcripts/2020/05/20/sociedad-quimica-y-minera-sqm-q1-2020-earnings-cal.aspx",
+      "source_title": "Sociedad Quimica y Minera (SQM) Q1 2020 Earnings Call Transcript | The Motley Fool",
+      "evidence_verified": true
+    },
+    {
+      "id": "F46",
+      "category": "budget_signals",
+      "fact": "SQM reported a high level of inventory, exceeding $1 billion.",
+      "evidence": "We have more than $1 billion of inventory. That takes some time to be reflected in the results.",
+      "as_of": "May 20, 2020",
+      "source_url": "https://www.fool.com/earnings/call-transcripts/2020/05/20/sociedad-quimica-y-minera-sqm-q1-2020-earnings-cal.aspx",
+      "source_title": "Sociedad Quimica y Minera (SQM) Q1 2020 Earnings Call Transcript | The Motley Fool",
+      "evidence_verified": true
+    },
+    {
+      "id": "F47",
+      "category": "investor_letters",
+      "fact": "Management views inventory as a strategic tool for flexibility rather than a financial burden.",
+      "evidence": "I think that our inventory is an -- element of flexibility that we have. We strongly believe in the fundamentals of the industry, and having these inventories are good news for us.",
+      "as_of": "May 20, 2020",
+      "source_url": "https://www.fool.com/earnings/call-transcripts/2020/05/20/sociedad-quimica-y-minera-sqm-q1-2020-earnings-cal.aspx",
+      "source_title": "Sociedad Quimica y Minera (SQM) Q1 2020 Earnings Call Transcript | The Motley Fool",
+      "evidence_verified": true
+    },
+    {
+      "id": "F48",
+      "category": "budget_signals",
+      "fact": "SQM reported earnings of approximately $45 million for the first quarter of the year.",
+      "evidence": "Last night, we reported earnings for the first quarter of the year of approximately $45 million, lower than the results seen during the same period last year.",
+      "as_of": "Q1 2020",
+      "source_url": "https://www.fool.com/earnings/call-transcripts/2020/05/20/sociedad-quimica-y-minera-sqm-q1-2020-earnings-cal.aspx",
+      "source_title": "Sociedad Quimica y Minera (SQM) Q1 2020 Earnings Call Transcript | The Motley Fool",
+      "evidence_verified": true
+    },
+    {
+      "id": "F49",
+      "category": "budget_signals",
+      "fact": "SQM ended the first quarter with approximately $1.4 billion in cash and cash equivalents and paid a $250 million bond in April.",
+      "evidence": "We ended the first quarter with approximately $1.4 billion in cash and cash equivalents. However, it is important to note that in April, we paid a $250 million bond.",
+      "as_of": "Q1 2020",
+      "source_url": "https://www.fool.com/earnings/call-transcripts/2020/05/20/sociedad-quimica-y-minera-sqm-q1-2020-earnings-cal.aspx",
+      "source_title": "Sociedad Quimica y Minera (SQM) Q1 2020 Earnings Call Transcript | The Motley Fool",
+      "evidence_verified": true
+    },
+    {
+      "id": "F50",
+      "category": "investor_letters",
+      "fact": "CEO Ricardo Ramos prioritizes the health and safety of employees and communities as a primary operational concern.",
+      "evidence": "My first concern is and has always been the well-being and safety of our employees, the families and the communities in which we operate.",
+      "as_of": "May 20, 2020",
+      "source_url": "https://www.fool.com/earnings/call-transcripts/2020/05/20/sociedad-quimica-y-minera-sqm-q1-2020-earnings-cal.aspx",
+      "source_title": "Sociedad Quimica y Minera (SQM) Q1 2020 Earnings Call Transcript | The Motley Fool",
+      "evidence_verified": true
+    },
+    {
+      "id": "F51",
+      "category": "investor_letters",
+      "fact": "SQM views its inventory as a strategic element of flexibility for future demand growth.",
+      "evidence": "I think that our inventory is an -- element of flexibility we have. We strongly believe in the fundamentals of the industry, and having these inventories are good news for us.",
+      "as_of": "May 20, 2020",
+      "source_url": "https://www.fool.com/earnings/call-transcripts/2020/05/20/sociedad-quimica-y-minera-sqm-q1-2020-earnings-cal.aspx",
+      "source_title": "Sociedad Quimica y Minera (SQM) Q1 2020 Earnings Call Transcript | The Motley Fool",
+      "evidence_verified": true
+    },
+    {
+      "id": "F52",
+      "category": "investor_letters",
+      "fact": "SQM maintains a strategic goal to increase its market share in the lithium industry despite market fluctuations.",
+      "evidence": "We are looking for market share increase. We will get it, and that's exactly what we expect to have.",
+      "as_of": "May 20, 2020",
+      "source_url": "https://www.fool.com/earnings/call-transcripts/2020/05/20/sociedad-quimica-y-minera-sqm-q1-2020-earnings-cal.aspx",
+      "source_title": "Sociedad Quimica y Minera (SQM) Q1 2020 Earnings Call Transcript | The Motley Fool",
+      "evidence_verified": true
+    },
+    {
+      "id": "F53",
+      "category": "budget_signals",
+      "fact": "SQM expects to produce between 65,000 and 70,000 metric tons of Lithium Carbonate Equivalent (LCE) in 2020.",
+      "evidence": "We do expect to produce between 65,000 to 70,000, even though we are going to increase our market share.",
+      "as_of": "2020",
+      "source_url": "https://www.fool.com/earnings/call-transcripts/2020/05/20/sociedad-quimica-y-minera-sqm-q1-2020-earnings-cal.aspx",
+      "source_title": "Sociedad Quimica y Minera (SQM) Q1 2020 Earnings Call Transcript | The Motley Fool",
+      "evidence_verified": true
+    },
+    {
+      "id": "F54",
+      "category": "budget_signals",
+      "fact": "SQM projects total potash sales volume to reach approximately 700,000 metric tons for the year 2020.",
+      "evidence": "And we expect to be close to 700,000 metric tons of potash sales during this year as a total volume.",
+      "as_of": "2020",
+      "source_url": "https://www.fool.com/earnings/call-transcripts/2020/05/20/sociedad-quimica-y-minera-sqm-q1-2020-earnings-cal.aspx",
+      "source_title": "Sociedad Quimica y Minera (SQM) Q1 2020 Earnings Call Transcript | The Motley Fool",
+      "evidence_verified": true
+    },
+    {
+      "id": "F55",
+      "category": "org_structure",
+      "fact": "Kelly O'Brien serves as the Head of Investor Relations at SQM.",
+      "evidence": "Please note this event is being recorded. I would now like to turn the conference over to Kelly O'Brien, Head of Investor Relations. Please go ahead.",
+      "as_of": "Q2 2021",
+      "source_url": "https://www.fool.com/earnings/call-transcripts/2021/08/19/sociedad-quimica-y-minera-de-chile-sa-sqm-q2-2021/",
+      "source_title": "Sociedad Quimica Y Minera De Chile SA (SQM) Q2 2021 Earnings Call Transcript | The Motley Fool",
+      "evidence_verified": true
+    },
+    {
+      "id": "F56",
+      "category": "org_structure",
+      "fact": "Ricardo Ramos is the Chief Executive Officer of SQM.",
+      "evidence": "Speaking on the call today will be Ricardo Ramos, CEO; Gerardo Illanes, CFO; and Felipe Smith, Commercial Vice President of Lithium and Iodine of Asia Pacific.",
+      "as_of": "Q2 2021",
+      "source_url": "https://www.fool.com/earnings/call-transcripts/2021/08/19/sociedad-quimica-y-minera-de-chile-sa-sqm-q2-2021/",
+      "source_title": "Sociedad Quimica Y Minera De Chile SA (SQM) Q2 2021 Earnings Call Transcript | The Motley Fool",
+      "evidence_verified": true
+    },
+    {
+      "id": "F57",
+      "category": "budget_signals",
+      "fact": "Planned production expansion for lithium capacity.",
+      "evidence": "If I think -- I think you said earlier on this call that you expect to be able to produce 140,000 tons LCE next year as you look to your expansion",
+      "as_of": "2022",
+      "source_url": "https://www.fool.com/earnings/call-transcripts/2021/08/19/sociedad-quimica-y-minera-de-chile-sa-sqm-q2-2021/",
+      "source_title": "Sociedad Quimica Y Minera De Chile SA (SQM) Q2 2021 Earnings Call Transcript | The Motley Fool",
+      "evidence_verified": true
+    },
+    {
+      "id": "F58",
+      "category": "investor_letters",
+      "fact": "Lithium is a primary long-term strategic priority for the company.",
+      "evidence": "As you know, lithium is a very important priority for us, it's a very good, a long-term busines for us, and second, most of the use of the potash for us is a raw material for potassium nitrate.",
+      "as_of": "Q2 2021",
+      "source_url": "https://www.fool.com/earnings/call-transcripts/2021/08/19/sociedad-quimica-y-minera-de-chile-sa-sqm-q2-2021/",
+      "source_title": "Sociedad Quimica Y Minera De Chile SA (SQM) Q2 2021 Earnings Call Transcript | The Motley Fool",
+      "evidence_verified": true
+    },
+    {
+      "id": "F59",
+      "category": "investor_letters",
+      "fact": "Focus on cost reduction initiatives for the iodine business.",
+      "evidence": "we have different initiatives to maintain our cost of time, we are trying to reduce our costs next year iodine business and the price is the market condition pricing.",
+      "as_of": "2022",
+      "source_url": "https://www.fool.com/earnings/call-transcripts/2021/08/19/sociedad-quimica-y-minera-de-chile-sa-sqm-q2-2021/",
+      "source_title": "Sociedad Quimica Y Minera De Chile SA (SQM) Q2 2021 Earnings Call Transcript | The Motley Fool",
+      "evidence_verified": true
+    },
+    {
+      "id": "F60",
+      "category": "investor_letters",
+      "fact": "Strategy to mitigate supply chain interruptions via local storage.",
+      "evidence": "there is indeed an overall problem with the supply chain, but as part of our strategy, we have established local warehouses and storage points in the main markets.",
+      "as_of": "Q2 2021",
+      "source_url": "https://www.fool.com/earnings/call-transcripts/2021/08/19/sociedad-quimica-y-minera-de-chile-sa-sqm-q2-2021/",
+      "source_title": "Sociedad Quimica Y Minera De Chile SA (SQM) Q2 2021 Earnings Call Transcript | The Motley Fool",
+      "evidence_verified": true
+    },
+    {
+      "id": "F61",
+      "category": "news",
+      "fact": "SQM is expanding its lithium carbonate production capacity in Chile, with the next stage of completion moved forward to 2022.",
+      "evidence": "As we mentioned in May, the completion of the next stage of our lithium carbonate expansion in Chile has been moved forward to 2022, and this remains true.",
+      "as_of": "August 19, 2021",
+      "source_url": "https://www.fool.com/earnings/call-transcripts/2021/08/19/sociedad-quimica-y-minera-de-chile-sa-sqm-q2-2021/",
+      "source_title": "Sociedad Quimica Y Minera De Chile SA (SQM) Q2 2021 Earnings Call Transcript | The Motley Fool",
+      "evidence_verified": true
+    },
+    {
+      "id": "F62",
+      "category": "news",
+      "fact": "SQM is developing a new lithium hydroxide line in Australia with a capacity of 40,000 metric tons, expected to be operational in 2024.",
+      "evidence": "In Australia,the development of 40,000 metric tons of lithium hydroxide line is on track and we expect to be operating in 2024.",
+      "as_of": "August 19, 2021",
+      "source_url": "https://www.fool.com/earnings/call-transcripts/2021/08/19/sociedad-quimica-y-minera-de-chile-sa-sqm-q2-2021/",
+      "source_title": "Sociedad Quimica Y Minera De Chile SA (SQM) Q2 2021 Earnings Call Transcript | The Motley Fool",
+      "evidence_verified": true
+    },
+    {
+      "id": "F63",
+      "category": "investor_letters",
+      "fact": "The company is prioritizing increased production capacity, productivity, and sustainability efforts at the Salar de Atacama site.",
+      "evidence": "As we mentioned before not only today, but in the last I don't know several other quarters report, we are very focused in increasing capacity, increasing our productivity, increasing deals and doing that great job in sustainability in the Salar.",
+      "as_of": "August 19, 2021",
+      "source_url": "https://www.fool.com/earnings/call-transcripts/2021/08/19/sociedad-quimica-y-minera-de-chile-sa-sqm-q2-2021/",
+      "source_title": "Sociedad Quimica Y Minera De Chile SA (SQM) Q2 2021 Earnings Call Transcript | The Motley Fool",
+      "evidence_verified": true
+    },
+    {
+      "id": "F64",
+      "category": "news",
+      "fact": "SQM has a production target of 140,000 metric tons of lithium carbonate for 2022.",
+      "evidence": "We expect to produce approximately 140,000 metric tons next here.",
+      "as_of": "August 19, 2021",
+      "source_url": "https://www.fool.com/earnings/call-transcripts/2021/08/19/sociedad-quimica-y-minera-de-chile-sa-sqm-q2-2021/",
+      "source_title": "Sociedad Quimica Y Minera De Chile SA (SQM) Q2 2021 Earnings Call Transcript | The Motley Fool",
+      "evidence_verified": true
+    },
+    {
+      "id": "F65",
+      "category": "investor_letters",
+      "fact": "The company aims to reach 180,000 metric tons of production capacity at the Salar de Atacama, a fourfold increase over three years.",
+      "evidence": "We are going to reach the 180,000 metric tons that is more than four times what you used to have three years ago, we are increasingly [Indecipherable] our facilities the qualities incredibly grew today",
+      "as_of": "2021-08-19",
+      "source_url": "https://www.fool.com/earnings/call-transcripts/2021/08/19/sociedad-quimica-y-minera-de-chile-sa-sqm-q2-2021/",
+      "source_title": "Sociedad Quimica Y Minera De Chile SA (SQM) Q2 2021 Earnings Call Transcript | The Motley Fool",
+      "evidence_verified": true
+    }
+  ],
+  "facts_by_category": {
+    "org_structure": [
+      {
+        "id": "F1",
+        "category": "org_structure",
+        "fact": "Gerardo Illanes is a contact for further information at SQM.",
+        "evidence": "For further information, contact: Gerardo Illanes / gerardo.illanes@sqm.com",
+        "as_of": "December 2025",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/909037/000090903726000012/a6-k_4q2025earningsrelease.htm",
+        "source_title": "Document",
+        "evidence_verified": true
+      },
+      {
+        "id": "F2",
+        "category": "org_structure",
+        "fact": "Isabel Bendeck is a contact for further information at SQM.",
+        "evidence": "Isabel Bendeck / isabel.bendeck@sqm.com",
+        "as_of": "December 2025",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/909037/000090903726000012/a6-k_4q2025earningsrelease.htm",
+        "source_title": "Document",
+        "evidence_verified": true
+      },
+      {
+        "id": "F3",
+        "category": "org_structure",
+        "fact": "Megan Suitor is a contact for further information at SQM.",
+        "evidence": "Megan Suitor / megan.suitor@sqm.com",
+        "as_of": "December 2025",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/909037/000090903726000012/a6-k_4q2025earningsrelease.htm",
+        "source_title": "Document",
+        "evidence_verified": true
+      },
+      {
+        "id": "F4",
+        "category": "org_structure",
+        "fact": "Ignacia Lopez handles media inquiries for Nova Andino Litio.",
+        "evidence": "Nova Andino Litio: Ignacia Lopez / ignacia.lopez@sqm.com",
+        "as_of": "December 2025",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/909037/000090903726000012/a6-k_4q2025earningsrelease.htm",
+        "source_title": "Document",
+        "evidence_verified": true
+      },
+      {
+        "id": "F5",
+        "category": "org_structure",
+        "fact": "Diana Wearing Smith handles media inquiries for the International Lithium Division.",
+        "evidence": "International Lithium Division: Diana Wearing Smith / diana.wearingsmith@sqm.com",
+        "as_of": "December 2025",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/909037/000090903726000012/a6-k_4q2025earningsrelease.htm",
+        "source_title": "Document",
+        "evidence_verified": true
+      },
+      {
+        "id": "F6",
+        "category": "org_structure",
+        "fact": "Carolina Guzman handles media inquiries for the Iodine & Plant Nutrition Division.",
+        "evidence": "Iodine & Plant Nutrition Division: Carolina Guzman / carolina.guzman@sqm.com",
+        "as_of": "December 2025",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/909037/000090903726000012/a6-k_4q2025earningsrelease.htm",
+        "source_title": "Document",
+        "evidence_verified": true
+      },
+      {
+        "id": "F9",
+        "category": "org_structure",
+        "fact": "Ricardo Ramos serves as the Chief Executive Officer of SQM.",
+        "evidence": "SQM’s Chief Executive Officer, Ricardo Ramos, stated, “We delivered strong results during the first quarter of the year.",
+        "as_of": "March 31, 2026",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/909037/000090903726000026/a6-k_1q2026earningsrelease.htm",
+        "source_title": "Document",
+        "evidence_verified": true
+      },
+      {
+        "id": "F15",
+        "category": "org_structure",
+        "fact": "Ricardo Ramos Rodríguez serves as the Chief Executive Officer of SQM.",
+        "evidence": "With my warmest rewards, Ricardo Ramos Rodríguez Chief Executive Officer SQM IN NUMBERS",
+        "as_of": "2023",
+        "source_url": "https://minedocs.com/26/SQM-AR-2023.pdf",
+        "source_title": "SQM-AR-2023.pdf",
+        "evidence_verified": true
+      },
+      {
+        "id": "F16",
+        "category": "org_structure",
+        "fact": "Gerardo Illanes serves as the Finance VP and CFO of SQM.",
+        "evidence": "Finance VP and CFO Gerardo Illanes",
+        "as_of": "2023",
+        "source_url": "https://minedocs.com/26/SQM-AR-2023.pdf",
+        "source_title": "SQM-AR-2023.pdf",
+        "evidence_verified": true
+      },
+      {
+        "id": "F17",
+        "category": "org_structure",
+        "fact": "Gonzalo Guerrero Yamamoto is the Chairman of the Board of Directors of SQM S.A. and a member of the Safety, Health, and Environment Committee.",
+        "evidence": "Gonzalo Guerrero Yamamoto Chilean ID: 10.581.580-8 Chilean Election date: April 2023 Chairman of the Board of Directors of SQM S.A. and member of the Safety, Health, and Environment Committee.",
+        "as_of": "April 2023",
+        "source_url": "https://minedocs.com/26/SQM-AR-2023.pdf",
+        "source_title": "SQM-AR-2023.pdf",
+        "evidence_verified": true
+      },
+      {
+        "id": "F18",
+        "category": "org_structure",
+        "fact": "Patricio Contesse Fica serves as the Vice Chairman and Member of the Corporate Governance Committee.",
+        "evidence": "Patricio Contesse Fica Chilean ID: 15.315.085-0 Chilean Election date: April 2023 Vice Chairman and Member of the Corporate Governance Committee",
+        "as_of": "April 2023",
+        "source_url": "https://minedocs.com/26/SQM-AR-2023.pdf",
+        "source_title": "SQM-AR-2023.pdf",
+        "evidence_verified": true
+      },
+      {
+        "id": "F22",
+        "category": "org_structure",
+        "fact": "Gerardo Illanes is a contact for investor relations.",
+        "evidence": "For further information, contact: Gerardo Illanes 56-2-24252022 / [email protected]",
+        "as_of": "March 15, 2021",
+        "source_url": "https://www.prnewswire.com/news-releases/sqm-files-its-annual-report-on-form-20-f-for-the-year-2020-301247777.html",
+        "source_title": "SQM Files Its Annual Report On Form 20-F For The Year 2020",
+        "evidence_verified": true
+      },
+      {
+        "id": "F23",
+        "category": "org_structure",
+        "fact": "Kelly O'Brien is a contact for investor relations.",
+        "evidence": "Kelly O'Brien 56-2-24252074 / [email protected]",
+        "as_of": "March 15, 2021",
+        "source_url": "https://www.prnewswire.com/news-releases/sqm-files-its-annual-report-on-form-20-f-for-the-year-2020-301247777.html",
+        "source_title": "SQM Files Its Annual Report On Form 20-F For The Year 2020",
+        "evidence_verified": true
+      },
+      {
+        "id": "F24",
+        "category": "org_structure",
+        "fact": "Irina Axenova is a contact for investor relations.",
+        "evidence": "Irina Axenova 56-2-24252280 / [email protected]",
+        "as_of": "March 15, 2021",
+        "source_url": "https://www.prnewswire.com/news-releases/sqm-files-its-annual-report-on-form-20-f-for-the-year-2020-301247777.html",
+        "source_title": "SQM Files Its Annual Report On Form 20-F For The Year 2020",
+        "evidence_verified": true
+      },
+      {
+        "id": "F30",
+        "category": "org_structure",
+        "fact": "Ricardo Ramos serves as the Chief Executive Officer of SQM.",
+        "evidence": "SQM's Chief Executive Officer, Ricardo Ramos, stated, \"I am pleased to announce SQM's second-quarter results.\"",
+        "as_of": "August 19, 2026",
+        "source_url": "https://finance.yahoo.com/markets/stocks/articles/sqm-reports-earnings-six-months-071900146.html",
+        "source_title": "SQM Reports Earnings for the Six Months Ended June 30, 2026",
+        "evidence_verified": true
+      },
+      {
+        "id": "F34",
+        "category": "org_structure",
+        "fact": "Isabel Bentec serves as the Investor Relations Officer of SQM.",
+        "evidence": "Now it's my pleasure to turn the call over to the Investor Relations Officer, Isabel Bentec.",
+        "as_of": "Q1 2025",
+        "source_url": "https://earningscall.biz/e/nyse/s/sqm/y/2025/q/q1",
+        "source_title": "EarningsCall Â· SQM Q1 2025",
+        "evidence_verified": true
+      },
+      {
+        "id": "F35",
+        "category": "org_structure",
+        "fact": "Ricardo Ramos is the Chief Executive Officer of SQM.",
+        "evidence": "Today's speakers include CEO Ricardo Ramos, CFO Gerardo Llanes, Carlos Diaz, CEO of Lithium Chile Division...",
+        "as_of": "Q1 2025",
+        "source_url": "https://earningscall.biz/e/nyse/s/sqm/y/2025/q/q1",
+        "source_title": "EarningsCall Â· SQM Q1 2025",
+        "evidence_verified": true
+      },
+      {
+        "id": "F36",
+        "category": "org_structure",
+        "fact": "Pablo Altimiras is the CEO of the Iodine and Plant Nutrition Division.",
+        "evidence": "Pablo Altimiras, CEO of Iodine and Plant Nutrition Division, Andres Fontanas, Commercial Vice President of International Lithium Division.",
+        "as_of": "Q1 2025",
+        "source_url": "https://earningscall.biz/e/nyse/s/sqm/y/2025/q/q1",
+        "source_title": "EarningsCall Â· SQM Q1 2025",
+        "evidence_verified": true
+      },
+      {
+        "id": "F37",
+        "category": "org_structure",
+        "fact": "Ricardo Ramos serves as Chief Executive Officer, Gerardo Illanes as Chief Financial Officer, Carlos Diaz as Executive Vice President of Lithium Business, and Pablo Altimiras as Executive Vice President of the IDI and I-Trace Businesses.",
+        "evidence": "Speaking on the call today will be Ricardo Ramos, Chief Executive Officer, and Gerardo Illanes, Chief Financial Officer, Carlos Diaz, Executive Vice President of Lithium Business, and Pablo Altimiras, Executive Vice President of the IDI and I-Trace Businesses will be available to answer any questions.",
+        "as_of": "Q1 2022",
+        "source_url": "https://earningscall.biz/e/nyse/s/sqm/y/2022/q/q1",
+        "source_title": "EarningsCall Â· SQM Q1 2022",
+        "evidence_verified": true
+      },
+      {
+        "id": "F41",
+        "category": "org_structure",
+        "fact": "Kelly O'Brien serves as the Head of Investor Relations at SQM.",
+        "evidence": "Joining the call today as speakers are Ricardo Ramos, chief executive officer; Gerardo Illanes, chief financial officer; and Felipe Smith, commercial vice president, lithium, and iodine, Asia Pacific. Before we begin, let me remind you that statements in this conference concerning t [...] considered in light of those factors.",
+        "as_of": "Q1 2020",
+        "source_url": "https://www.fool.com/earnings/call-transcripts/2020/05/20/sociedad-quimica-y-minera-sqm-q1-2020-earnings-cal.aspx",
+        "source_title": "Sociedad Quimica y Minera (SQM) Q1 2020 Earnings Call Transcript | The Motley Fool",
+        "evidence_verified": true
+      },
+      {
+        "id": "F55",
+        "category": "org_structure",
+        "fact": "Kelly O'Brien serves as the Head of Investor Relations at SQM.",
+        "evidence": "Please note this event is being recorded. I would now like to turn the conference over to Kelly O'Brien, Head of Investor Relations. Please go ahead.",
+        "as_of": "Q2 2021",
+        "source_url": "https://www.fool.com/earnings/call-transcripts/2021/08/19/sociedad-quimica-y-minera-de-chile-sa-sqm-q2-2021/",
+        "source_title": "Sociedad Quimica Y Minera De Chile SA (SQM) Q2 2021 Earnings Call Transcript | The Motley Fool",
+        "evidence_verified": true
+      },
+      {
+        "id": "F56",
+        "category": "org_structure",
+        "fact": "Ricardo Ramos is the Chief Executive Officer of SQM.",
+        "evidence": "Speaking on the call today will be Ricardo Ramos, CEO; Gerardo Illanes, CFO; and Felipe Smith, Commercial Vice President of Lithium and Iodine of Asia Pacific.",
+        "as_of": "Q2 2021",
+        "source_url": "https://www.fool.com/earnings/call-transcripts/2021/08/19/sociedad-quimica-y-minera-de-chile-sa-sqm-q2-2021/",
+        "source_title": "Sociedad Quimica Y Minera De Chile SA (SQM) Q2 2021 Earnings Call Transcript | The Motley Fool",
+        "evidence_verified": true
+      }
+    ],
+    "budget_signals": [
+      {
+        "id": "F7",
+        "category": "budget_signals",
+        "fact": "SQM reported total revenues of US$4,576.2 million for the twelve months ended December 31, 2025.",
+        "evidence": "SQM reported total revenues for the twelve months ended December 31, 2025 of US$4,576.2 million compared to total revenues of US$4,528.8 million for the same period last year.",
+        "as_of": "December 31, 2025",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/909037/000090903726000012/a6-k_4q2025earningsrelease.htm",
+        "source_title": "Document",
+        "evidence_verified": true
+      },
+      {
+        "id": "F8",
+        "category": "budget_signals",
+        "fact": "Adjusted EBITDA for the twelve months ended December 31, 2025 reached US$1,579.6 million.",
+        "evidence": "Adjusted EBITDA for the twelve months ended December 31, 2025, reached US$1,579.6 million (Adjusted EBITDA margin of 34.5%), compared to US$1,483.6 million (Adjusted EBITDA margin of 32.8%) for the twelve months ended December 31, 2024.",
+        "as_of": "December 31, 2025",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/909037/000090903726000012/a6-k_4q2025earningsrelease.htm",
+        "source_title": "Document",
+        "evidence_verified": true
+      },
+      {
+        "id": "F10",
+        "category": "budget_signals",
+        "fact": "SQM reported property, plant and equipment assets of US$4,917.2 million.",
+        "evidence": "Property, plant and equipment 4,917.2 4,839.5",
+        "as_of": "March 31, 2026",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/909037/000090903726000026/a6-k_1q2026earningsrelease.htm",
+        "source_title": "Document",
+        "evidence_verified": true
+      },
+      {
+        "id": "F19",
+        "category": "budget_signals",
+        "fact": "SQM reported capital expenditures of US$1,103.6 million for the year 2023.",
+        "evidence": "Our capital expenditures for the years ended December 31, 2023, 2022 and 2021 were as follows: (In milions of US$) 2023 2022 2021 Capital expenditures………………. 1.103,6 905,2 464,7 2023 During 2023, we had total capital expenditures of US$1,103.6 million.",
+        "as_of": "2023",
+        "source_url": "https://minedocs.com/26/SQM-AR-2023.pdf",
+        "source_title": "SQM-AR-2023.pdf",
+        "evidence_verified": true
+      },
+      {
+        "id": "F20",
+        "category": "budget_signals",
+        "fact": "SQM expects its capital expenditure for the 2024-2025 period to reach approximately US$2.4 billion, including maintenance.",
+        "evidence": "We expect our capital expenditure for the 2024-2025 period to reach approximately US$2.4 billion, including maintenance.",
+        "as_of": "2024-2025",
+        "source_url": "https://minedocs.com/26/SQM-AR-2023.pdf",
+        "source_title": "SQM-AR-2023.pdf",
+        "evidence_verified": true
+      },
+      {
+        "id": "F29",
+        "category": "budget_signals",
+        "fact": "SQM reported total revenues of US$4,228.5 million for the six months ended June 30, 2026.",
+        "evidence": "SQM reported total revenues for the six months ended June 30, 2026 of US$4,228.5 million compared to total revenues of US$2,079.3 million for the same period last year.",
+        "as_of": "June 30, 2026",
+        "source_url": "https://finance.yahoo.com/markets/stocks/articles/sqm-reports-earnings-six-months-071900146.html",
+        "source_title": "SQM Reports Earnings for the Six Months Ended June 30, 2026",
+        "evidence_verified": true
+      },
+      {
+        "id": "F32",
+        "category": "budget_signals",
+        "fact": "SQM is planning around US$2.7 billion of capex through 2027 to expand lithium carbonate and hydroxide capacity in Chile and Australia.",
+        "evidence": "SQM is planning around US$2.7b of capex through 2027 to expand lithium carbonate and hydroxide capacity in Chile and Australia.",
+        "as_of": "March 2, 2026",
+        "source_url": "https://finance.yahoo.com/news/sqm-profit-return-record-lithium-211436397.html",
+        "source_title": "SQM Profit Return And Record Lithium Output Reshape Long Term Growth Prospects",
+        "evidence_verified": true
+      },
+      {
+        "id": "F38",
+        "category": "budget_signals",
+        "fact": "First quarter results included payments related to the agreement with CORFO and tax provisions totaling approximately $800 billion.",
+        "evidence": "Our first quarter results include payments related to the agreement with CORPO and tax provisions that total approximately $800 billion.",
+        "as_of": "Q1 2022",
+        "source_url": "https://earningscall.biz/e/nyse/s/sqm/y/2022/q/q1",
+        "source_title": "EarningsCall Â· SQM Q1 2022",
+        "evidence_verified": true
+      },
+      {
+        "id": "F42",
+        "category": "budget_signals",
+        "fact": "SQM reduced its 2020 capital expenditure (capex) guidance due to the pandemic and operational adjustments.",
+        "evidence": "On the other hand, we continue to move ahead with our capex program and expect it to reach approximately $350 million this year, lower than the $450 million previously announced.",
+        "as_of": "May 20, 2020",
+        "source_url": "https://www.fool.com/earnings/call-transcripts/2020/05/20/sociedad-quimica-y-minera-sqm-q1-2020-earnings-cal.aspx",
+        "source_title": "Sociedad Quimica y Minera (SQM) Q1 2020 Earnings Call Transcript | The Motley Fool",
+        "evidence_verified": true
+      },
+      {
+        "id": "F43",
+        "category": "budget_signals",
+        "fact": "The reduction in capex is attributed to delaying nonessential activities to protect worker health and safety.",
+        "evidence": "This capex delay is a result of reduced nonessential activities in our production facilities to help protect the health and safety of our workers.",
+        "as_of": "May 20, 2020",
+        "source_url": "https://www.fool.com/earnings/call-transcripts/2020/05/20/sociedad-quimica-y-minera-sqm-q1-2020-earnings-cal.aspx",
+        "source_title": "Sociedad Quimica y Minera (SQM) Q1 2020 Earnings Call Transcript | The Motley Fool",
+        "evidence_verified": true
+      },
+      {
+        "id": "F44",
+        "category": "budget_signals",
+        "fact": "SQM plans to accelerate capex in 2021 to compensate for delays incurred in 2020.",
+        "evidence": "Depending on the evolution of the pandemic, we should be able to accelerate our capex plans in 2021 and make up for any delays we see in the upcoming months.",
+        "as_of": "May 20, 2020",
+        "source_url": "https://www.fool.com/earnings/call-transcripts/2020/05/20/sociedad-quimica-y-minera-sqm-q1-2020-earnings-cal.aspx",
+        "source_title": "Sociedad Quimica y Minera (SQM) Q1 2020 Earnings Call Transcript | The Motley Fool",
+        "evidence_verified": true
+      },
+      {
+        "id": "F46",
+        "category": "budget_signals",
+        "fact": "SQM reported a high level of inventory, exceeding $1 billion.",
+        "evidence": "We have more than $1 billion of inventory. That takes some time to be reflected in the results.",
+        "as_of": "May 20, 2020",
+        "source_url": "https://www.fool.com/earnings/call-transcripts/2020/05/20/sociedad-quimica-y-minera-sqm-q1-2020-earnings-cal.aspx",
+        "source_title": "Sociedad Quimica y Minera (SQM) Q1 2020 Earnings Call Transcript | The Motley Fool",
+        "evidence_verified": true
+      },
+      {
+        "id": "F48",
+        "category": "budget_signals",
+        "fact": "SQM reported earnings of approximately $45 million for the first quarter of the year.",
+        "evidence": "Last night, we reported earnings for the first quarter of the year of approximately $45 million, lower than the results seen during the same period last year.",
+        "as_of": "Q1 2020",
+        "source_url": "https://www.fool.com/earnings/call-transcripts/2020/05/20/sociedad-quimica-y-minera-sqm-q1-2020-earnings-cal.aspx",
+        "source_title": "Sociedad Quimica y Minera (SQM) Q1 2020 Earnings Call Transcript | The Motley Fool",
+        "evidence_verified": true
+      },
+      {
+        "id": "F49",
+        "category": "budget_signals",
+        "fact": "SQM ended the first quarter with approximately $1.4 billion in cash and cash equivalents and paid a $250 million bond in April.",
+        "evidence": "We ended the first quarter with approximately $1.4 billion in cash and cash equivalents. However, it is important to note that in April, we paid a $250 million bond.",
+        "as_of": "Q1 2020",
+        "source_url": "https://www.fool.com/earnings/call-transcripts/2020/05/20/sociedad-quimica-y-minera-sqm-q1-2020-earnings-cal.aspx",
+        "source_title": "Sociedad Quimica y Minera (SQM) Q1 2020 Earnings Call Transcript | The Motley Fool",
+        "evidence_verified": true
+      },
+      {
+        "id": "F53",
+        "category": "budget_signals",
+        "fact": "SQM expects to produce between 65,000 and 70,000 metric tons of Lithium Carbonate Equivalent (LCE) in 2020.",
+        "evidence": "We do expect to produce between 65,000 to 70,000, even though we are going to increase our market share.",
+        "as_of": "2020",
+        "source_url": "https://www.fool.com/earnings/call-transcripts/2020/05/20/sociedad-quimica-y-minera-sqm-q1-2020-earnings-cal.aspx",
+        "source_title": "Sociedad Quimica y Minera (SQM) Q1 2020 Earnings Call Transcript | The Motley Fool",
+        "evidence_verified": true
+      },
+      {
+        "id": "F54",
+        "category": "budget_signals",
+        "fact": "SQM projects total potash sales volume to reach approximately 700,000 metric tons for the year 2020.",
+        "evidence": "And we expect to be close to 700,000 metric tons of potash sales during this year as a total volume.",
+        "as_of": "2020",
+        "source_url": "https://www.fool.com/earnings/call-transcripts/2020/05/20/sociedad-quimica-y-minera-sqm-q1-2020-earnings-cal.aspx",
+        "source_title": "Sociedad Quimica y Minera (SQM) Q1 2020 Earnings Call Transcript | The Motley Fool",
+        "evidence_verified": true
+      },
+      {
+        "id": "F57",
+        "category": "budget_signals",
+        "fact": "Planned production expansion for lithium capacity.",
+        "evidence": "If I think -- I think you said earlier on this call that you expect to be able to produce 140,000 tons LCE next year as you look to your expansion",
+        "as_of": "2022",
+        "source_url": "https://www.fool.com/earnings/call-transcripts/2021/08/19/sociedad-quimica-y-minera-de-chile-sa-sqm-q2-2021/",
+        "source_title": "Sociedad Quimica Y Minera De Chile SA (SQM) Q2 2021 Earnings Call Transcript | The Motley Fool",
+        "evidence_verified": true
+      }
+    ],
+    "news": [
+      {
+        "id": "F11",
+        "category": "news",
+        "fact": "SQM is commissioning a new seawater pipeline to support production capacity.",
+        "evidence": "In the meantime, we remain focused on operating at maximum capacity, and, with the upcoming commissioning of our seawater pipeline, we expect to reach production capacity above 15,000 tons this year.",
+        "as_of": "May 26, 2026",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/909037/000090903726000026/a6-k_1q2026earningsrelease.htm",
+        "source_title": "Document",
+        "evidence_verified": true
+      },
+      {
+        "id": "F14",
+        "category": "news",
+        "fact": "Two of the Company's subsidiaries signed an agreement to terminate a dispute related to sales contracts and interest in the joint venture of Sichuan SQM Migao Chemical Fertilizers Co Ltd.",
+        "evidence": "On February 9, 2021, two of the Company’s subsidiaries signed an agreement to terminate a dispute related to sales contracts and interest in the joint venture of Sichuan SQM Migao Chemical Fertilizers Co Ltd.",
+        "as_of": "February 9, 2021",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/909037/000110465921145125/tm2134212d1_6k.htm",
+        "source_title": "securities and exchange commission",
+        "evidence_verified": true
+      },
+      {
+        "id": "F28",
+        "category": "news",
+        "fact": "SQM filed its Annual Report on Form 20-F for the fiscal year ended December 31, 2020.",
+        "evidence": "Sociedad Quimica y Minera de Chile S.A. (SQM) (NYSE: SQM ; Santiago Stock Exchange: SQM-B, SQM-A) announced today that it has filed its Annual Report on Form 20-F for the fiscal year ended December 31, 2020 , with the U.S. Securities and Exchange Commission",
+        "as_of": "March 15, 2021",
+        "source_url": "https://www.prnewswire.com/news-releases/sqm-files-its-annual-report-on-form-20-f-for-the-year-2020-301247777.html",
+        "source_title": "SQM Files Its Annual Report On Form 20-F For The Year 2020",
+        "evidence_verified": true
+      },
+      {
+        "id": "F33",
+        "category": "news",
+        "fact": "The Nova Andino Litio SpA venture reached 233,000 tons of lithium carbonate equivalent in 2025, which was above initial targets.",
+        "evidence": "The Nova Andino Litio SpA venture reached 233,000 tons of lithium carbonate equivalent in 2025, above initial targets",
+        "as_of": "2025",
+        "source_url": "https://finance.yahoo.com/news/sqm-profit-return-record-lithium-211436397.html",
+        "source_title": "SQM Profit Return And Record Lithium Output Reshape Long Term Growth Prospects",
+        "evidence_verified": true
+      },
+      {
+        "id": "F61",
+        "category": "news",
+        "fact": "SQM is expanding its lithium carbonate production capacity in Chile, with the next stage of completion moved forward to 2022.",
+        "evidence": "As we mentioned in May, the completion of the next stage of our lithium carbonate expansion in Chile has been moved forward to 2022, and this remains true.",
+        "as_of": "August 19, 2021",
+        "source_url": "https://www.fool.com/earnings/call-transcripts/2021/08/19/sociedad-quimica-y-minera-de-chile-sa-sqm-q2-2021/",
+        "source_title": "Sociedad Quimica Y Minera De Chile SA (SQM) Q2 2021 Earnings Call Transcript | The Motley Fool",
+        "evidence_verified": true
+      },
+      {
+        "id": "F62",
+        "category": "news",
+        "fact": "SQM is developing a new lithium hydroxide line in Australia with a capacity of 40,000 metric tons, expected to be operational in 2024.",
+        "evidence": "In Australia,the development of 40,000 metric tons of lithium hydroxide line is on track and we expect to be operating in 2024.",
+        "as_of": "August 19, 2021",
+        "source_url": "https://www.fool.com/earnings/call-transcripts/2021/08/19/sociedad-quimica-y-minera-de-chile-sa-sqm-q2-2021/",
+        "source_title": "Sociedad Quimica Y Minera De Chile SA (SQM) Q2 2021 Earnings Call Transcript | The Motley Fool",
+        "evidence_verified": true
+      },
+      {
+        "id": "F64",
+        "category": "news",
+        "fact": "SQM has a production target of 140,000 metric tons of lithium carbonate for 2022.",
+        "evidence": "We expect to produce approximately 140,000 metric tons next here.",
+        "as_of": "August 19, 2021",
+        "source_url": "https://www.fool.com/earnings/call-transcripts/2021/08/19/sociedad-quimica-y-minera-de-chile-sa-sqm-q2-2021/",
+        "source_title": "Sociedad Quimica Y Minera De Chile SA (SQM) Q2 2021 Earnings Call Transcript | The Motley Fool",
+        "evidence_verified": true
+      }
+    ],
+    "investor_letters": [
+      {
+        "id": "F12",
+        "category": "investor_letters",
+        "fact": "The company is prioritizing maximum operational capacity to meet strong customer demand in the lithium segment.",
+        "evidence": "In lithium, sales volumes reached approximately 69 thousand metric tons of LCE across our operations, as we continued to operate at full capacity to meet strong customer demand.",
+        "as_of": "March 31, 2026",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/909037/000090903726000026/a6-k_1q2026earningsrelease.htm",
+        "source_title": "Document",
+        "evidence_verified": true
+      },
+      {
+        "id": "F13",
+        "category": "investor_letters",
+        "fact": "SQM is prioritizing higher lithium-content brines at the Atacama salt flat, which has impacted potash production volumes.",
+        "evidence": "Following the previously announced reduction in sales volumes for this business line, volumes were more than 30% lower compared to the same period last year, mainly due to lower potash production at the Atacama salt flat as we prioritize higher lithium-content brines.",
+        "as_of": "March 31, 2026",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/909037/000090903726000026/a6-k_1q2026earningsrelease.htm",
+        "source_title": "Document",
+        "evidence_verified": true
+      },
+      {
+        "id": "F21",
+        "category": "investor_letters",
+        "fact": "SQM aims to maintain its leading world position in specific markets including lithium, potassium nitrate, iodine, and thermo-solar salts.",
+        "evidence": "We aim to maintain our leading world position in the lithium, potassium nitrate, iodine and thermo-solar salts markets.",
+        "as_of": "2023",
+        "source_url": "https://minedocs.com/26/SQM-AR-2023.pdf",
+        "source_title": "SQM-AR-2023.pdf",
+        "evidence_verified": true
+      },
+      {
+        "id": "F25",
+        "category": "investor_letters",
+        "fact": "The company prioritizes safe and accident-free operations.",
+        "evidence": "We strive for safe and accident-free operations by promoting conduct that favors the physical safety and psychological well-being of everyone who works directly and indirectly with the Company.",
+        "as_of": "March 15, 2021",
+        "source_url": "https://www.prnewswire.com/news-releases/sqm-files-its-annual-report-on-form-20-f-for-the-year-2020-301247777.html",
+        "source_title": "SQM Files Its Annual Report On Form 20-F For The Year 2020",
+        "evidence_verified": true
+      },
+      {
+        "id": "F26",
+        "category": "investor_letters",
+        "fact": "The company aims to strengthen operational and logistical processes while maintaining cost leadership.",
+        "evidence": "Strengthening our operational, logistical and commercial excellence process from beginning to end, while looking to be a cost leader; and Maintaining a conservative financial policy which allows us to successfully endure economic cycles that could impact the markets in which we sell.",
+        "as_of": "March 15, 2021",
+        "source_url": "https://www.prnewswire.com/news-releases/sqm-files-its-annual-report-on-form-20-f-for-the-year-2020-301247777.html",
+        "source_title": "SQM Files Its Annual Report On Form 20-F For The Year 2020",
+        "evidence_verified": true
+      },
+      {
+        "id": "F27",
+        "category": "investor_letters",
+        "fact": "The company is focused on sustainable expansion projects and improving existing operations to minimize environmental impact.",
+        "evidence": "We will continue to create value for all of our stakeholders through responsible management of natural resources, sustainable expansion projects and improvement of our existing operations, with a focus on minimizing our environmental impacts by reducing our carbon, energy and water footprints",
+        "as_of": "March 15, 2021",
+        "source_url": "https://www.prnewswire.com/news-releases/sqm-files-its-annual-report-on-form-20-f-for-the-year-2020-301247777.html",
+        "source_title": "SQM Files Its Annual Report On Form 20-F For The Year 2020",
+        "evidence_verified": true
+      },
+      {
+        "id": "F31",
+        "category": "investor_letters",
+        "fact": "CEO Ricardo Ramos stated that SQM achieved record-high quarterly sales volumes surpassing 84 thousand metric tons of LCE in lithium.",
+        "evidence": "In lithium, we achieved record quarterly sales volumes of over 84 thousand metric tons of Lithium Carbonate Equivalent (LCE) from our lithium operations in Chile through Nova Andino Litioii and in Australia through Covalent Lithiumiii.",
+        "as_of": "August 19, 2026",
+        "source_url": "https://finance.yahoo.com/markets/stocks/articles/sqm-reports-earnings-six-months-071900146.html",
+        "source_title": "SQM Reports Earnings for the Six Months Ended June 30, 2026",
+        "evidence_verified": true
+      },
+      {
+        "id": "F39",
+        "category": "investor_letters",
+        "fact": "The CEO stated that the company remains on target to reach 180,000 metric tons of lithium capacity in the coming months, with plans to reach 210,000 metric tons of lithium carbonate and 40,000 metric tons of lithium hydroxide advancing well.",
+        "evidence": "Finally, for lithium, We remain on target to reach the 180,000 metric tons in the coming months. Our plan to reach the 210,000 metric tons and 40,000 metric tons of capacity of lithium carbonate and lithium hydroxide respectively is advancing well.",
+        "as_of": "Q1 2022",
+        "source_url": "https://earningscall.biz/e/nyse/s/sqm/y/2022/q/q1",
+        "source_title": "EarningsCall Â· SQM Q1 2022",
+        "evidence_verified": true
+      },
+      {
+        "id": "F40",
+        "category": "investor_letters",
+        "fact": "The CEO stated that the company remains on target to increase iodine capacity by 1,000 metric tons next year and 2.5 thousand metric tons in 2024.",
+        "evidence": "In the IOD market, we remain on target to increase our capacity 1,000 metric tons next year and 2.5 thousand metric tons in 2024.",
+        "as_of": "Q1 2022",
+        "source_url": "https://earningscall.biz/e/nyse/s/sqm/y/2022/q/q1",
+        "source_title": "EarningsCall Â· SQM Q1 2022",
+        "evidence_verified": true
+      },
+      {
+        "id": "F45",
+        "category": "investor_letters",
+        "fact": "SQM is prioritizing the continuation of its lithium expansion projects despite the pandemic.",
+        "evidence": "As a result of this, we continue to move forward with our previously announced expansion plan to expect to bring our lithium carbonate and lithium hydroxide projects online by the end of 2021.",
+        "as_of": "May 20, 2020",
+        "source_url": "https://www.fool.com/earnings/call-transcripts/2020/05/20/sociedad-quimica-y-minera-sqm-q1-2020-earnings-cal.aspx",
+        "source_title": "Sociedad Quimica y Minera (SQM) Q1 2020 Earnings Call Transcript | The Motley Fool",
+        "evidence_verified": true
+      },
+      {
+        "id": "F47",
+        "category": "investor_letters",
+        "fact": "Management views inventory as a strategic tool for flexibility rather than a financial burden.",
+        "evidence": "I think that our inventory is an -- element of flexibility that we have. We strongly believe in the fundamentals of the industry, and having these inventories are good news for us.",
+        "as_of": "May 20, 2020",
+        "source_url": "https://www.fool.com/earnings/call-transcripts/2020/05/20/sociedad-quimica-y-minera-sqm-q1-2020-earnings-cal.aspx",
+        "source_title": "Sociedad Quimica y Minera (SQM) Q1 2020 Earnings Call Transcript | The Motley Fool",
+        "evidence_verified": true
+      },
+      {
+        "id": "F50",
+        "category": "investor_letters",
+        "fact": "CEO Ricardo Ramos prioritizes the health and safety of employees and communities as a primary operational concern.",
+        "evidence": "My first concern is and has always been the well-being and safety of our employees, the families and the communities in which we operate.",
+        "as_of": "May 20, 2020",
+        "source_url": "https://www.fool.com/earnings/call-transcripts/2020/05/20/sociedad-quimica-y-minera-sqm-q1-2020-earnings-cal.aspx",
+        "source_title": "Sociedad Quimica y Minera (SQM) Q1 2020 Earnings Call Transcript | The Motley Fool",
+        "evidence_verified": true
+      },
+      {
+        "id": "F51",
+        "category": "investor_letters",
+        "fact": "SQM views its inventory as a strategic element of flexibility for future demand growth.",
+        "evidence": "I think that our inventory is an -- element of flexibility we have. We strongly believe in the fundamentals of the industry, and having these inventories are good news for us.",
+        "as_of": "May 20, 2020",
+        "source_url": "https://www.fool.com/earnings/call-transcripts/2020/05/20/sociedad-quimica-y-minera-sqm-q1-2020-earnings-cal.aspx",
+        "source_title": "Sociedad Quimica y Minera (SQM) Q1 2020 Earnings Call Transcript | The Motley Fool",
+        "evidence_verified": true
+      },
+      {
+        "id": "F52",
+        "category": "investor_letters",
+        "fact": "SQM maintains a strategic goal to increase its market share in the lithium industry despite market fluctuations.",
+        "evidence": "We are looking for market share increase. We will get it, and that's exactly what we expect to have.",
+        "as_of": "May 20, 2020",
+        "source_url": "https://www.fool.com/earnings/call-transcripts/2020/05/20/sociedad-quimica-y-minera-sqm-q1-2020-earnings-cal.aspx",
+        "source_title": "Sociedad Quimica y Minera (SQM) Q1 2020 Earnings Call Transcript | The Motley Fool",
+        "evidence_verified": true
+      },
+      {
+        "id": "F58",
+        "category": "investor_letters",
+        "fact": "Lithium is a primary long-term strategic priority for the company.",
+        "evidence": "As you know, lithium is a very important priority for us, it's a very good, a long-term busines for us, and second, most of the use of the potash for us is a raw material for potassium nitrate.",
+        "as_of": "Q2 2021",
+        "source_url": "https://www.fool.com/earnings/call-transcripts/2021/08/19/sociedad-quimica-y-minera-de-chile-sa-sqm-q2-2021/",
+        "source_title": "Sociedad Quimica Y Minera De Chile SA (SQM) Q2 2021 Earnings Call Transcript | The Motley Fool",
+        "evidence_verified": true
+      },
+      {
+        "id": "F59",
+        "category": "investor_letters",
+        "fact": "Focus on cost reduction initiatives for the iodine business.",
+        "evidence": "we have different initiatives to maintain our cost of time, we are trying to reduce our costs next year iodine business and the price is the market condition pricing.",
+        "as_of": "2022",
+        "source_url": "https://www.fool.com/earnings/call-transcripts/2021/08/19/sociedad-quimica-y-minera-de-chile-sa-sqm-q2-2021/",
+        "source_title": "Sociedad Quimica Y Minera De Chile SA (SQM) Q2 2021 Earnings Call Transcript | The Motley Fool",
+        "evidence_verified": true
+      },
+      {
+        "id": "F60",
+        "category": "investor_letters",
+        "fact": "Strategy to mitigate supply chain interruptions via local storage.",
+        "evidence": "there is indeed an overall problem with the supply chain, but as part of our strategy, we have established local warehouses and storage points in the main markets.",
+        "as_of": "Q2 2021",
+        "source_url": "https://www.fool.com/earnings/call-transcripts/2021/08/19/sociedad-quimica-y-minera-de-chile-sa-sqm-q2-2021/",
+        "source_title": "Sociedad Quimica Y Minera De Chile SA (SQM) Q2 2021 Earnings Call Transcript | The Motley Fool",
+        "evidence_verified": true
+      },
+      {
+        "id": "F63",
+        "category": "investor_letters",
+        "fact": "The company is prioritizing increased production capacity, productivity, and sustainability efforts at the Salar de Atacama site.",
+        "evidence": "As we mentioned before not only today, but in the last I don't know several other quarters report, we are very focused in increasing capacity, increasing our productivity, increasing deals and doing that great job in sustainability in the Salar.",
+        "as_of": "August 19, 2021",
+        "source_url": "https://www.fool.com/earnings/call-transcripts/2021/08/19/sociedad-quimica-y-minera-de-chile-sa-sqm-q2-2021/",
+        "source_title": "Sociedad Quimica Y Minera De Chile SA (SQM) Q2 2021 Earnings Call Transcript | The Motley Fool",
+        "evidence_verified": true
+      },
+      {
+        "id": "F65",
+        "category": "investor_letters",
+        "fact": "The company aims to reach 180,000 metric tons of production capacity at the Salar de Atacama, a fourfold increase over three years.",
+        "evidence": "We are going to reach the 180,000 metric tons that is more than four times what you used to have three years ago, we are increasingly [Indecipherable] our facilities the qualities incredibly grew today",
+        "as_of": "2021-08-19",
+        "source_url": "https://www.fool.com/earnings/call-transcripts/2021/08/19/sociedad-quimica-y-minera-de-chile-sa-sqm-q2-2021/",
+        "source_title": "Sociedad Quimica Y Minera De Chile SA (SQM) Q2 2021 Earnings Call Transcript | The Motley Fool",
+        "evidence_verified": true
+      }
+    ]
+  },
+  "brief": {
+    "org_structure_summary": "SQM is led by CEO Ricardo Ramos [F9, F15, F30, F35, F37, F56]. The company operates through distinct divisions, including the Lithium Business, led by Executive Vice President Carlos Diaz [F37], and the Iodine and Plant Nutrition Division, led by CEO Pablo Altimiras [F36, F37]. Financial operations are overseen by CFO Gerardo Illanes [F16, F37]. The Board of Directors includes Chairman Gonzalo Guerrero Yamamoto and Vice Chairman Patricio Contesse Fica [F17, F18]. Investor relations contacts include Isabel Bentec [F34] and Kelly O'Brien [F41, F55].",
+    "named_people": [
+      {
+        "name": "Carlos Diaz",
+        "role": "Executive Vice President of Lithium Business",
+        "fact_id": "F37"
+      },
+      {
+        "name": "Gonzalo Guerrero Yamamoto",
+        "role": "Chairman of the Board of Directors",
+        "fact_id": "F17"
+      }
+    ],
+    "reporting_line_hypothesis": "Hypothesis: Rodrigo Castillo, as Head of Operations for the Northern Operations Division, likely reports up through the Lithium Business leadership chain, given the strategic importance of the Atacama lithium sites [F12, F13, F63]. The Lithium Business is led by Executive Vice President Carlos Diaz [F37].",
+    "budget_summary": "SQM has significant capital resources, reporting US$4,576.2 million in total revenue for 2025 [F7] and US$4,228.5 million for the first six months of 2026 [F29]. The company has planned approximately US$2.7 billion in capital expenditures through 2027 to expand lithium capacity in Chile and Australia [F32].",
+    "news_summary": "SQM is currently focused on maximizing operational capacity to meet strong lithium demand [F12]. Key developments include the upcoming commissioning of a new seawater pipeline to support production [F11] and a strategic shift to prioritize higher lithium-content brines at the Atacama salt flat [F13].",
+    "operational_priorities": "The company prioritizes safe and accident-free operations [F25, F50], maximizing production capacity [F12, F63], and maintaining cost leadership [F26]. Sustainability is a core focus, with efforts to minimize environmental impact through reduced carbon, energy, and water footprints [F27, F63].",
+    "positioning_recommendation": [
+      "Position FlytBase as a solution to enhance safety and reduce reliance on hazardous, expensive contracted crews, directly addressing SQM's stated pain points [Lead Context].",
+      "Align drone autonomy capabilities with SQM's strategic focus on increasing productivity and operational capacity at the Salar de Atacama [F63].",
+      "Highlight the ability to support 24/7 operations, matching SQM's continuous extraction requirements [Lead Context].",
+      "Emphasize how automated inspection contributes to SQM's broader sustainability goals by minimizing environmental footprints [F27]."
+    ],
+    "top_findings": [
+      {
+        "finding": "SQM is aggressively expanding lithium capacity with US$2.7 billion in planned capex through 2027 [F32].",
+        "why_it_matters_for_the_deal": "Indicates a high-budget environment where infrastructure-related investments are prioritized.",
+        "fact_ids": [
+          "F32"
+        ]
+      },
+      {
+        "finding": "The company is prioritizing higher lithium-content brines at the Atacama salt flat [F13].",
+        "why_it_matters_for_the_deal": "This specific focus area is the exact location of the prospect's operations, making it the ideal site for a pilot.",
+        "fact_ids": [
+          "F13"
+        ]
+      },
+      {
+        "finding": "Safety and accident-free operations are a primary, stated concern for the CEO [F25, F50].",
+        "why_it_matters_for_the_deal": "Provides a strong value proposition for FlytBase to pitch autonomous drones as a way to remove humans from hazardous environments.",
+        "fact_ids": [
+          "F25",
+          "F50"
+        ]
+      },
+      {
+        "finding": "SQM is commissioning a new seawater pipeline to support production [F11].",
+        "why_it_matters_for_the_deal": "New infrastructure projects often require automated monitoring and inspection, creating an immediate use case.",
+        "fact_ids": [
+          "F11"
+        ]
+      },
+      {
+        "finding": "The company is operating at full capacity to meet strong customer demand [F12].",
+        "why_it_matters_for_the_deal": "Operational downtime is costly; an autonomous solution that maintains 24/7 inspection without stopping production is highly valuable.",
+        "fact_ids": [
+          "F12"
+        ]
+      }
+    ]
+  },
+  "stats": {
+    "results": 73,
+    "pages_fetched": 36,
+    "pages_ok": 12,
+    "verified_facts": 65,
+    "categories_not_found": []
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "headline": "Rodrigo Castillo (Head of Ops, SQM) inquiring about autonomous drone inspection for Atacama lithium sites; P1 priority; leverage existing Adentu partnership for expansion.",
+  "buyer_context": {
+    "who": "Rodrigo Castillo, Head of Operations, Northern Operations Division at SQM.",
+    "cares_about": [
+      "Reducing high costs of contracted crews",
+      "Eliminating safety hazards for manual inspection teams",
+      "Maintaining 24/7 operational uptime",
+      "Increasing lithium production capacity"
+    ],
+    "likely_stakeholders": [
+      {
+        "name": "Carlos Diaz",
+        "role": "Executive Vice President of Lithium Business",
+        "why": "Oversees the strategic lithium business unit where the Atacama sites operate.",
+        "known_or_hypothesis": "known"
+      },
+      {
+        "name": "Ricardo Ramos",
+        "role": "CEO",
+        "why": "Primary driver of safety and operational capacity initiatives.",
+        "known_or_hypothesis": "known"
+      },
+      {
+        "name": "Gerardo Illanes",
+        "role": "CFO",
+        "why": "Final authority on capital expenditure and budget allocation.",
+        "known_or_hypothesis": "known"
+      }
+    ]
+  },
+  "qualification_status": {
+    "framework": "MEDDPICC",
+    "scores": "3.1/10 completeness, 8.5/10 fit, 8.9/10 priority",
+    "knowns": [
+      "Pain: Contracted crews are expensive and hazardous",
+      "Budget: Q3 timeline",
+      "Use case: Autonomous inspection for Atacama sites",
+      "Referral: Anglo American"
+    ],
+    "unknowns": [
+      "Decision criteria",
+      "Specific cost reduction targets",
+      "Procurement and legal process",
+      "Competition"
+    ]
+  },
+  "top_3_research_findings": [
+    {
+      "finding": "SQM is investing US$2.7 billion in capital expenditures through 2027 to expand lithium capacity.",
+      "so_what": "Indicates a high budget environment where infrastructure investments are prioritized.",
+      "fact_ids": [
+        "F32"
+      ],
+      "sources": [
+        "https://finance.yahoo.com/news/sqm-profit-return-record-lithium-211436397.html"
+      ]
+    },
+    {
+      "finding": "CEO Ricardo Ramos prioritizes safe and accident free operations as a primary concern.",
+      "so_what": "Aligns perfectly with the value proposition of removing humans from hazardous inspection tasks.",
+      "fact_ids": [
+        "F25",
+        "F50"
+      ],
+      "sources": [
+        "https://www.fool.com/earnings/call-transcripts/2020/05/20/sociedad-quimica-y-minera-sqm-q1-2020-earnings-cal.aspx",
+        "https://www.prnewswire.com/news-releases/sqm-files-its-annual-report-on-form-20-f-for-the-year-2020-301247777.html"
+      ]
+    },
+    {
+      "finding": "SQM is operating at full capacity to meet strong lithium demand.",
+      "so_what": "Operational downtime is extremely costly, making the 24/7 autonomous inspection value proposition critical.",
+      "fact_ids": [
+        "F12"
+      ],
+      "sources": [
+        "https://www.sec.gov/Archives/edgar/data/909037/000090903726000026/a6-k_1q2026earningsrelease.htm"
+      ]
+    }
+  ],
+  "recommended_case_study": {
+    "title": "How SQM Turned a 678 km² Mine into an Autonomous Inspection Zone",
+    "url": "https://flytbase.com/case-studies/sqm-678-km2-mine-autonomous-inspection-adentu-and-flytbase",
+    "why": "Provides direct proof of success at their own company with the same partner, Adentu."
+  },
+  "sales_motion": "Hybrid: AE owns enterprise account expansion while partner Adentu delivers localized deployment.",
+  "next_step": {
+    "action": "Email Rodrigo referencing the previous successful Adentu deployment at SQM and request a discovery call to discuss expansion.",
+    "owner": "AE",
+    "when": "Within 24 hours",
+    "rationale": "Leverages existing trust and technical validation to accelerate the Q3 budget conversation."
+  },
+  "watch_outs": [
+    "Budget timing is deferred to Q3, requiring a long term nurture if immediate interest is low.",
+    "Harsh Atacama environment requires robust hardware and software integration.",
+    "Ensure Adentu is aligned on the account strategy before the first call."
+  ]
+}

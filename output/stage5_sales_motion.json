@@ -1,0 +1,141 @@
+{
+  "partner_pages": [
+    "https://flytbase.com/partner",
+    "https://flytbase.com/partner?region=Americas"
+  ],
+  "directory_url": "https://flytbase.com/partner",
+  "stated_total": "127",
+  "partners_parsed": 126,
+  "latam_partners": [
+    {
+      "name": "Drone Nerds LATAM",
+      "tier": "Gold",
+      "types": [
+        "Reseller",
+        "Solution Provider"
+      ],
+      "country": "Colombia"
+    },
+    {
+      "name": "Dronestore Chile",
+      "tier": "Gold",
+      "types": [
+        "System Integrator",
+        "Solution Provider"
+      ],
+      "country": "Chile"
+    },
+    {
+      "name": "GEOINN",
+      "tier": "Gold",
+      "types": [
+        "Reseller",
+        "Solution Provider"
+      ],
+      "country": "Costa Rica"
+    },
+    {
+      "name": "Martin Fablet",
+      "tier": "Gold",
+      "types": [
+        "System Integrator",
+        "Solution Provider"
+      ],
+      "country": "Uruguay"
+    },
+    {
+      "name": "Runco",
+      "tier": "Gold",
+      "types": [
+        "Reseller",
+        "Solution Provider"
+      ],
+      "country": "Argentina"
+    },
+    {
+      "name": "Walross Tech",
+      "tier": "Gold",
+      "types": [
+        "System Integrator",
+        "Solution Provider"
+      ],
+      "country": "Mexico"
+    },
+    {
+      "name": "UAVLatam",
+      "tier": "Bronze",
+      "types": [
+        "System Integrator",
+        "Solution Provider"
+      ],
+      "country": "Argentina"
+    },
+    {
+      "name": "Tactical Drones",
+      "tier": "",
+      "types": [
+        "not found"
+      ],
+      "country": "Mexico"
+    },
+    {
+      "name": "Traf Signal",
+      "tier": "",
+      "types": [
+        "Solution Provider"
+      ],
+      "country": "Panama"
+    }
+  ],
+  "in_country_partners": [
+    {
+      "name": "Dronestore Chile",
+      "tier": "Gold",
+      "types": [
+        "System Integrator",
+        "Solution Provider"
+      ],
+      "country": "Chile"
+    }
+  ],
+  "lead_company_case_studies": [
+    {
+      "url": "https://flytbase.com/case-studies/sqm-678-km2-mine-autonomous-inspection-adentu-and-flytbase",
+      "title": "How SQM Turned a 678 km² Mine into an Autonomous Inspection Zone | FlytBase | FlytBase"
+    }
+  ],
+  "recommendation": {
+    "motion": "hybrid",
+    "one_line": "AE owns the enterprise account expansion while existing partner Adentu delivers the localized deployment in Chile.",
+    "justification": {
+      "region": "Chile, where SQM operates its Atacama lithium sites.",
+      "deal_complexity": "High complexity, involving 24/7 autonomous drone operations across large-scale desert extraction sites integrated with Azure analytics.",
+      "partner_availability": "Adentu is available and has an existing relationship, though Dronestore Chile is also listed in the directory.",
+      "existing_relationship": "Adentu previously partnered with SQM and FlytBase on a 678 km² mine deployment (listed in the case study; not listed in the standard LATAM partner directory)."
+    },
+    "recommended_partners": [
+      {
+        "name": "Adentu",
+        "type": "System Integrator",
+        "country": "Chile",
+        "role_in_deal": "Integrated FlytBase with SQM's Azure environment and deployed physical infrastructure.",
+        "source_url": "https://flytbase.com/case-studies/sqm-678-km2-mine-autonomous-inspection-adentu-and-flytbase"
+      },
+      {
+        "name": "Dronestore Chile",
+        "type": "System Integrator, Solution Provider",
+        "country": "Chile",
+        "role_in_deal": "Directory-listed backup partner for local support.",
+        "source_url": "https://flytbase.com/partner"
+      }
+    ],
+    "risks": [
+      "Overreliance on contracted crews if transition to autonomy faces delays",
+      "Harsh environmental conditions in the Atacama Desert"
+    ],
+    "ae_actions": [
+      "Contact Rodrigo Castillo referencing the previous successful deployment with Adentu",
+      "Coordinate with Adentu to scope expansion for the northern lithium sites"
+    ]
+  }
+}

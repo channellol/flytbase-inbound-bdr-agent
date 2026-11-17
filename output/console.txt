@@ -1,0 +1,139 @@
+[2026-11-17 20:08:42] INFO  Run started. Model: gemini-3.5-flash-lite. Input: inbound email (454 chars)
+[2026-11-17 20:08:42] INFO  === Stage 1: Qualification (MEDDPICC) ===
+[2026-11-17 20:08:42] INFO  [1-qualification] Parsing inbound email into structured fields
+[2026-11-17 20:08:45] INFO  [1-qualification] LLM ok: parse email (3.5s, gemini-3.5-flash-lite)
+[2026-11-17 20:08:45] INFO  [1-qualification] Assessing MEDDPICC elements against email evidence
+[2026-11-17 20:08:49] WARN  [1-qualification] LLM error on MEDDPICC assessment (ServerError, gemini-3.5-flash-lite): 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand 
+[2026-11-17 20:08:49] WARN  [1-qualification] switching MEDDPICC assessment to gemini-3.1-flash-lite
+[2026-11-17 20:08:54] INFO  [1-qualification] LLM ok: MEDDPICC assessment (3.7s, gemini-3.1-flash-lite)
+[2026-11-17 20:08:54] INFO  [1-qualification] Fit 7.5/10, priority 8.2/10, 5 unknown elements
+[2026-11-17 20:08:54] INFO  Stage 1: Qualification (MEDDPICC) done in 12.3s -> output/stage1_qualification.json
+[2026-11-17 20:08:54] INFO  === Stage 2: Deep account research ===
+[2026-11-17 20:08:54] INFO  [2-research] Planning research queries for Sociedad Quimica y Minera de Chile (SQM)
+[2026-11-17 20:08:56] INFO  [2-research] LLM ok: plan search queries (2.5s, gemini-3.5-flash-lite)
+[2026-11-17 20:08:56] INFO  [2-research] Running 17 searches in parallel
+[2026-11-17 20:09:03] WARN  search 'Sociedad Quimica y Minera de Chile Head of Operations Northern Operations management' failed (DDGSException), attempt 1
+[2026-11-17 20:09:08] WARN  search 'Sociedad Quimica y Minera de Chile Northern Operations incidents news' failed (DDGSException), attempt 1
+[2026-11-17 20:09:08] WARN  search 'SQM press releases operational expansion technology partnerships 2025 2026' failed (DDGSException), attempt 1
+[2026-11-17 20:09:10] WARN  search 'SQM CEO earnings call transcript automation safety productivity priorities' failed (DDGSException), attempt 1
+[2026-11-17 20:09:16] WARN  search 'Sociedad Quimica y Minera de Chile Northern Operations incidents news' failed (DDGSException), attempt 2
+[2026-11-17 20:09:18] WARN  search 'Sociedad Quimica y Minera de Chile sustainability report operational efficiency goals' failed (DDGSException), attempt 1
+[2026-11-17 20:09:29] INFO  [2-research] search [org_structure] 'SQM executive team vice president operations' -> 7 results
+[2026-11-17 20:09:29] INFO  [2-research] search [org_structure] 'SQM board of directors CEO management' -> 7 results
+[2026-11-17 20:09:29] INFO  [2-research] search [org_structure] 'SQM Northern Operations Division organizational structure executives report' -> 7 results
+[2026-11-17 20:09:29] INFO  [2-research] search [org_structure] 'Sociedad Quimica y Minera de Chile Head of Operations Northern Operations management' -> 7 results
+[2026-11-17 20:09:29] INFO  [2-research] search [budget_signals] 'SQM 20-F 2025 capital expenditures' -> 7 results
+[2026-11-17 20:09:29] INFO  [2-research] search [budget_signals] 'SQM capex guidance 2026' -> 7 results
+[2026-11-17 20:09:29] INFO  [2-research] search [budget_signals] 'SQM Form 20-F capex technology automation investment annual report' -> 7 results
+[2026-11-17 20:09:29] INFO  [2-research] search [budget_signals] 'Sociedad Quimica y Minera de Chile operational expenditure expansion spend SEC filing' -> 7 results
+[2026-11-17 20:09:29] INFO  [2-research] search [news] 'SQM news 2026' -> 7 results
+[2026-11-17 20:09:29] INFO  [2-research] search [news] 'SQM press release 2026' -> 7 results
+[2026-11-17 20:09:29] INFO  [2-research] search [news] 'SQM press releases operational expansion technology partnerships 2025 2026' -> 7 results
+[2026-11-17 20:09:29] INFO  [2-research] search [news] 'Sociedad Quimica y Minera de Chile Northern Operations incidents news' -> 7 results
+[2026-11-17 20:09:29] INFO  [2-research] search [investor_letters] 'SQM annual report 2025 letter from the chairman' -> 7 results
+[2026-11-17 20:09:29] INFO  [2-research] search [investor_letters] 'SQM earnings call transcript 2026' -> 7 results
+[2026-11-17 20:09:29] INFO  [2-research] search [investor_letters] 'SQM investor presentation 2026' -> 7 results
+[2026-11-17 20:09:29] INFO  [2-research] search [investor_letters] 'SQM CEO earnings call transcript automation safety productivity priorities' -> 7 results
+[2026-11-17 20:09:29] INFO  [2-research] search [investor_letters] 'Sociedad Quimica y Minera de Chile sustainability report operational efficiency goals' -> 7 results
+[2026-11-17 20:09:29] INFO  [2-research] 36 unique results, fetching top 30 in parallel
+[2026-11-17 20:09:37] WARN  [2-research] skip https://www.sqm.com/en/ (HTTP 403)
+[2026-11-17 20:09:37] WARN  [2-research] skip https://www.sqm.com/en/acerca-de-sqm/directorio-y-administracion/administracion/ (HTTP 403)
+[2026-11-17 20:09:37] WARN  [2-research] skip https://www.sqm.com/en/about-sqm/board-and-management/ (HTTP 403)
+[2026-11-17 20:09:37] WARN  [2-research] skip https://www.sqm.com/en/about-sqm/ (HTTP 403)
+[2026-11-17 20:09:37] WARN  [2-research] skip https://sqm.com/en/inversionistas/presentacion-corporativa/ (HTTP 403)
+[2026-11-17 20:09:37] WARN  [2-research] skip https://www.sqm.com/inversionistas/documentos-e-informes/ (HTTP 403)
+[2026-11-17 20:09:37] WARN  [2-research] skip https://sqm.com/en/centro-de-prensa/noticias/ (HTTP 403)
+[2026-11-17 20:09:37] WARN  [2-research] skip https://www.sqm.com/en/lines-of-business/our-operations/ (HTTP 403)
+[2026-11-17 20:09:37] WARN  [2-research] skip https://www.sec.gov/edgar/browse/?CIK=0000865477 (does not name SQM / Chile)
+[2026-11-17 20:09:37] WARN  [2-research] skip https://sqm.com/en/sustentabilidad/reporte-de-sustentabilidad/ (HTTP 403)
+[2026-11-17 20:09:37] WARN  [2-research] skip https://www.spglobal.com/market-intelligence/en/news-insights/research/2026/05/sqm-seen-posting-58percent-revenue-growth-in-2026-as-lithium-prices-rebound (HTTP 403)
+[2026-11-17 20:09:37] WARN  [2-research] skip https://seekingalpha.com/symbol/SQM/sec-filings (HTTP 403)
+[2026-11-17 20:09:37] WARN  [2-research] skip https://www.investing.com/news/company-news/sqm-q2-2026-slides-lithium-sales-surge-drives-record-results-93CH-4867962 (HTTP 403)
+[2026-11-17 20:09:37] WARN  [2-research] skip https://seekingalpha.com/news/4635080-sqm-expects-2026-lithium-demand-to-exceed-2_1m-tons-as-it-targets-280000minus-290000-tons-of (HTTP 403)
+[2026-11-17 20:09:37] WARN  [2-research] skip https://www.bloomberg.com/news/articles/2026-07-03/sqm-codelco-venture-maps-path-to-higher-lithium-output-in-chile (HTTP 403)
+[2026-11-17 20:09:37] WARN  [2-research] skip https://uk.marketscreener.com/quote/stock/SOCIEDAD-QU-MICA-Y-MINERA-40246783/news/Sociedad-Quimica-y-Minera-de-Chile-S-A-Reports-Preliminary-Effects-of-Earthquake-in-Northern-Chile-38768552/ (HTTP 403)
+[2026-11-17 20:09:37] WARN  [2-research] skip https://www.reuters.com/company/sociedad-quimica-y-minera-de-chile-sa/ (HTTP 401)
+[2026-11-17 20:09:37] WARN  [2-research] skip https://seekingalpha.com/news/4462442-lithium-miner-sqm-starts-laying-off-5-of-chilean-workforce---reuters (HTTP 403)
+[2026-11-17 20:09:37] WARN  [2-research] skip https://www.marketscreener.com/news/sociedad-qu-mica-y-minera-de-chile-s-a-2025-annual-report-2025-annual-report-ce7f59d8d08ef025 (HTTP 403)
+[2026-11-17 20:09:37] INFO  [2-research] Extracting facts from 11 pages in parallel
+[2026-11-17 20:09:39] INFO  [2-research] LLM ok: extract facts from sec.gov (1.8s, gemini-3.5-flash-lite)
+[2026-11-17 20:09:41] WARN  [2-research] LLM error on extract facts from sec.gov (ServerError, gemini-3.5-flash-lite): 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand 
+[2026-11-17 20:09:41] WARN  [2-research] switching extract facts from sec.gov to gemini-3.1-flash-lite
+[2026-11-17 20:09:42] WARN  [2-research] LLM error on extract facts from sec.gov (ServerError, gemini-3.5-flash-lite): 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand 
+[2026-11-17 20:09:42] WARN  [2-research] switching extract facts from sec.gov to gemini-3.1-flash-lite
+[2026-11-17 20:09:42] INFO  [2-research] LLM ok: extract facts from sec.gov (2.9s, gemini-3.5-flash-lite)
+[2026-11-17 20:09:45] INFO  [2-research] LLM ok: extract facts from minedocs.com (3.7s, gemini-3.5-flash-lite)
+[2026-11-17 20:09:46] WARN  [2-research] LLM error on extract facts from sec.gov (ServerError, gemini-3.1-flash-lite): 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand 
+[2026-11-17 20:09:46] WARN  [2-research] switching extract facts from sec.gov to gemini-3.5-flash
+[2026-11-17 20:09:46] INFO  [2-research] LLM ok: extract facts from minedocs.com (4.6s, gemini-3.5-flash-lite)
+[2026-11-17 20:09:49] INFO  [2-research] LLM ok: extract facts from sec.gov (5.0s, gemini-3.1-flash-lite)
+[2026-11-17 20:09:50] WARN  [2-research] LLM error on extract facts from sec.gov (ServerError, gemini-3.5-flash): 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand 
+[2026-11-17 20:09:50] WARN  [2-research] switching extract facts from sec.gov to gemini-3.7-flash
+[2026-11-17 20:09:52] INFO  [2-research] LLM ok: extract facts from finance.yahoo.com (6.8s, gemini-3.5-flash-lite)
+[2026-11-17 20:09:55] INFO  [2-research] LLM ok: extract facts from minedocs.com (8.9s, gemini-3.5-flash-lite)
+[2026-11-17 20:09:55] INFO  [2-research] LLM ok: extract facts from nasdaq.com (3.7s, gemini-3.5-flash-lite)
+[2026-11-17 20:09:57] WARN  [2-research] LLM error on extract facts from sec.gov (ServerError, gemini-3.7-flash): 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand 
+[2026-11-17 20:09:57] WARN  [2-research] switching extract facts from sec.gov to gemini-3.5-flash-lite
+[2026-11-17 20:09:58] WARN  [2-research] LLM error on extract facts from minedocs.com (ServerError, gemini-3.5-flash-lite): 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand 
+[2026-11-17 20:09:58] WARN  [2-research] switching extract facts from minedocs.com to gemini-3.1-flash-lite
+[2026-11-17 20:10:00] INFO  [2-research] LLM ok: extract facts from finance.yahoo.com (10.6s, gemini-3.5-flash-lite)
+[2026-11-17 20:10:04] INFO  [2-research] LLM ok: extract facts from minedocs.com (4.5s, gemini-3.1-flash-lite)
+[2026-11-17 20:10:08] INFO  [2-research] LLM ok: extract facts from sec.gov (7.2s, gemini-3.5-flash-lite)
+[2026-11-17 20:10:08] INFO  [2-research] sec.gov: kept 0 verified facts
+[2026-11-17 20:10:08] INFO  [2-research] sec.gov: kept 0 verified facts
+[2026-11-17 20:10:08] INFO  [2-research] sec.gov: kept 3 verified facts
+[2026-11-17 20:10:08] INFO  [2-research] sec.gov: kept 3 verified facts
+[2026-11-17 20:10:08] INFO  [2-research] minedocs.com: kept 5 verified facts
+[2026-11-17 20:10:08] INFO  [2-research] minedocs.com: kept 2 verified facts
+[2026-11-17 20:10:08] INFO  [2-research] finance.yahoo.com: kept 6 verified facts
+[2026-11-17 20:10:08] INFO  [2-research] minedocs.com: kept 1 verified facts
+[2026-11-17 20:10:08] INFO  [2-research] finance.yahoo.com: kept 5 verified facts
+[2026-11-17 20:10:08] INFO  [2-research] nasdaq.com: kept 3 verified facts
+[2026-11-17 20:10:09] INFO  [2-research] minedocs.com: kept 5 verified facts
+[2026-11-17 20:10:09] INFO  [2-research] Synthesising research brief from verified facts
+[2026-11-17 20:10:13] INFO  [2-research] LLM ok: synthesise research brief (4.6s, gemini-3.5-flash-lite)
+[2026-11-17 20:10:13] INFO  Stage 2: Deep account research done in 79.2s -> output/stage2_research.json
+[2026-11-17 20:10:13] INFO  === Stage 4: Case study matching ===
+[2026-11-17 20:10:13] INFO  [4-case-study] Discovering case studies on flytbase.com
+[2026-11-17 20:10:13] INFO  [4-case-study] Found 24 English case study URLs
+[2026-11-17 20:10:13] INFO  [4-case-study] Fetched 24 case studies
+[2026-11-17 20:10:16] INFO  [4-case-study] LLM ok: detect organisations in email (2.7s, gemini-3.5-flash-lite)
+[2026-11-17 20:10:16] INFO  [4-case-study] Organisations in email: Sociedad Quimica y Minera de Chile (SQM) (sender's company), Anglo American (referrer)
+[2026-11-17 20:10:16] INFO  [4-case-study] 'Sociedad Quimica y Minera de Chile (SQM)' (sender's company) is mentioned in: How SQM Turned a 678 km² Mine into an Autonomous Inspection Zone | FlytBase | FlytBase
+[2026-11-17 20:10:16] INFO  [4-case-study] 'Anglo American' (referrer) is mentioned in: How Anglo American Uses Autonomous Drones to Transform Mining Safety in Peru | FlytBase Case Study | FlytBase
+[2026-11-17 20:10:18] WARN  [4-case-study] LLM error on score 24 case studies (ServerError, gemini-3.5-flash-lite): 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand 
+[2026-11-17 20:10:18] WARN  [4-case-study] switching score 24 case studies to gemini-3.1-flash-lite
+[2026-11-17 20:10:26] INFO  [4-case-study] LLM ok: score 24 case studies (7.8s, gemini-3.1-flash-lite)
+[2026-11-17 20:10:28] WARN  [4-case-study] LLM error on explain best match (ServerError, gemini-3.5-flash-lite): 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand 
+[2026-11-17 20:10:28] WARN  [4-case-study] switching explain best match to gemini-3.1-flash-lite
+[2026-11-17 20:10:34] INFO  [4-case-study] LLM ok: explain best match (4.4s, gemini-3.1-flash-lite)
+[2026-11-17 20:10:34] INFO  [4-case-study] Best match: How SQM Turned a 678 km² Mine into an Autonomous Inspection Zone | FlytBase | FlytBase (10.0/10)
+[2026-11-17 20:10:34] INFO  Stage 4: Case study matching done in 20.4s -> output/stage4_case_study.json
+[2026-11-17 20:10:34] INFO  === Stage 5: Partner / sales motion ===
+[2026-11-17 20:10:34] INFO  [5-sales-motion] Partner pages found in sitemap: ['https://flytbase.com/partner']
+[2026-11-17 20:10:34] INFO  [5-sales-motion] Parsing partner directory
+[2026-11-17 20:10:40] WARN  [5-sales-motion] LLM error on parse partner directory (ServerError, gemini-3.5-flash-lite): 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand 
+[2026-11-17 20:10:40] WARN  [5-sales-motion] switching parse partner directory to gemini-3.1-flash-lite
+[2026-11-17 20:11:00] INFO  [5-sales-motion] LLM ok: parse partner directory (18.1s, gemini-3.1-flash-lite)
+[2026-11-17 20:11:00] INFO  [5-sales-motion] 126 partners parsed, 9 in LATAM, 1 in Chile
+[2026-11-17 20:11:00] INFO  [5-sales-motion] Lead's company already appears in 1 FlytBase case stud(ies): checking which partner delivered it
+[2026-11-17 20:11:08] INFO  [5-sales-motion] LLM ok: recommend sales motion (8.4s, gemini-3.5-flash-lite)
+[2026-11-17 20:11:08] INFO  [5-sales-motion] Recommended motion: hybrid
+[2026-11-17 20:11:08] INFO  Stage 5: Partner / sales motion done in 34.5s -> output/stage5_sales_motion.json
+[2026-11-17 20:11:08] INFO  === Stage 3: Adaptive email sequence ===
+[2026-11-17 20:11:09] WARN  [3-email-sequence] LLM error on write email sequence (ServerError, gemini-3.5-flash): 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand 
+[2026-11-17 20:11:09] WARN  [3-email-sequence] switching write email sequence to gemini-3.1-flash-lite
+[2026-11-17 20:11:22] INFO  [3-email-sequence] LLM ok: write email sequence (12.0s, gemini-3.1-flash-lite)
+[2026-11-17 20:11:22] INFO  [3-email-sequence] 4 emails written
+[2026-11-17 20:11:22] INFO  Stage 3: Adaptive email sequence done in 14.0s -> output/stage3_email_sequence.json
+[2026-11-17 20:11:22] INFO  === Stage 6: AE handoff ===
+[2026-11-17 20:12:00] WARN  [6-ae-handoff] LLM error on write AE handoff (ServerError, gemini-3.5-flash): 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand 
+[2026-11-17 20:12:00] WARN  [6-ae-handoff] switching write AE handoff to gemini-3.1-flash-lite
+[2026-11-17 20:12:07] INFO  [6-ae-handoff] LLM ok: write AE handoff (6.3s, gemini-3.1-flash-lite)
+[2026-11-17 20:12:07] INFO  [6-ae-handoff] Handoff ready
+[2026-11-17 20:12:07] INFO  Stage 6: AE handoff done in 45.2s -> output/stage6_ae_handoff.json
+[2026-11-17 20:12:07] INFO  Report written -> output/report.md
+[2026-11-17 20:12:07] INFO  Run finished in 206s
+
+Done. Outputs in ./output (report.md, stageN_*.json, run_log.txt)
+Headline: Rodrigo Castillo (Head of Ops, SQM) seeks autonomous drone inspection for Atacama sites; high priority; leverage existing Adentu partnership to scope expansion.

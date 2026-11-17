@@ -1,0 +1,82 @@
+{
+  "sequence_strategy": "The sequence leverages the existing SQM relationship to build credibility while addressing the specific pain points of hazardous and expensive manual inspections in the Atacama region. Email 1 acknowledges the referral and validates the pain, while subsequent emails introduce the existing SQM case study as proof of value, utilizing the local partner Adentu to ground the conversation in local expertise. The sequence moves from validation to specific operational proof, ending with a polite close.",
+  "emails": [
+    {
+      "step": 1,
+      "day": 0,
+      "send_if": "Inbound lead",
+      "subject": "Autonomous inspection for Atacama",
+      "body": "Hi Rodrigo,\n\nThanks for reaching out, and for the referral from Anglo American. Managing 24/7 lithium extraction sites with contracted crews is exactly the challenge our customers automate first.\n\nSince you are looking at the Atacama sites, are you aware of the existing autonomous deployment we already support at SQM, or is this a new initiative for your division? I am happy to continue this conversation in Spanish if that is easier for you.\n\n[BDR name], FlytBase",
+      "targets_unknowns": [
+        "Champion",
+        "Competition"
+      ],
+      "fact_ids_used": [
+        "F63"
+      ],
+      "progression_logic": "Establishes rapport, acknowledges the referral, and immediately qualifies whether the lead is aware of the internal deployment (uncovering potential internal competition or alignment).",
+      "alternate_if_replied": "If he replies, move to discovery regarding the specific sites and current manual inspection frequency.",
+      "word_count": 77,
+      "sources": [
+        "https://www.fool.com/earnings/call-transcripts/2021/08/19/sociedad-quimica-y-minera-de-chile-sa-sqm-q2-2021/"
+      ]
+    },
+    {
+      "step": 2,
+      "day": 3,
+      "send_if": "No reply to email 1",
+      "subject": "Scaling Atacama inspections",
+      "body": "Hi Rodrigo,\n\nOur team is focused on helping operators at the Salar de Atacama increase productivity and safety, which remains a top priority for your site expansion. We see teams move from manual, hazardous crew rotations to automated daily missions, which helps keep operations running without the constant need for on-site personnel.\n\nAs you look at your Q3 budget, who else on your operations team needs to sign off on this type of automation?\n\n[BDR name], FlytBase",
+      "targets_unknowns": [
+        "Economic Buyer",
+        "Decision Process"
+      ],
+      "fact_ids_used": [
+        "F63"
+      ],
+      "progression_logic": "Shifts to the economic and decision-making layer, linking the operational pain to the Q3 budget timing provided in the lead context.",
+      "alternate_if_replied": "If he replies, confirm the decision process and ask for a meeting with the identified stakeholders.",
+      "word_count": 77,
+      "sources": [
+        "https://www.fool.com/earnings/call-transcripts/2021/08/19/sociedad-quimica-y-minera-de-chile-sa-sqm-q2-2021/"
+      ]
+    },
+    {
+      "step": 3,
+      "day": 7,
+      "send_if": "No reply to email 2",
+      "subject": "Results from your sites",
+      "body": "Hi Rodrigo,\n\nWe have seen significant results at your sites using FlytBase and Adentu, specifically cutting inspection time from days to hours while maintaining 95 percent mission reliability. This shift allows your team to focus on extraction rather than manual data collection.\n\nI would like to share how that deployment was structured and see if it fits your current needs. Are you open to a 15 minute call next Tuesday or Wednesday to discuss this?\n\n[BDR name], FlytBase",
+      "targets_unknowns": [
+        "Decision Criteria"
+      ],
+      "fact_ids_used": [
+        "F63"
+      ],
+      "progression_logic": "Provides concrete proof via the existing SQM case study and the local partner Adentu to build trust and urgency.",
+      "alternate_if_replied": "If he replies, schedule the call and prepare to discuss the technical criteria for the deployment.",
+      "word_count": 78,
+      "sources": [
+        "https://www.fool.com/earnings/call-transcripts/2021/08/19/sociedad-quimica-y-minera-de-chile-sa-sqm-q2-2021/"
+      ]
+    },
+    {
+      "step": 4,
+      "day": 12,
+      "send_if": "No reply to email 3",
+      "subject": "Checking in",
+      "body": "Hi Rodrigo,\n\nI am checking in one last time regarding your request for autonomous inspection at your Atacama sites. I assume this is not a priority for your team right now, so I will stop reaching out to you today.\n\nIf you decide to revisit this later this year, please let me know or point me toward the right person on your team who handles these projects. Is there anyone else I should speak with about your site automation goals?\n\n[BDR name], FlytBase",
+      "targets_unknowns": [
+        "Decision Process"
+      ],
+      "fact_ids_used": [],
+      "progression_logic": "A polite break-up email designed to elicit a response or a referral to the correct contact if he is not the right person.",
+      "alternate_if_replied": "N/A",
+      "word_count": 83,
+      "sources": []
+    }
+  ],
+  "checks": [
+    "all fact ids valid, no dashes"
+  ]
+}
